@@ -1,0 +1,1227 @@
+Apr 14 00:00:00 linux1 sshd[1001]: Accepted publickey for ubuntu from 10.0.0.5 port 49622 ssh2
+Apr 14 00:00:01 linux1 systemd-logind[1002]: Session opened for user ubuntu
+Apr 14 00:00:20 linux1 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Apr 14 00:26:28 linux1 systemd-logind[1004]: Session closed for user ubuntu
+Apr 14 00:26:46 linux1 CRON[1005]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 00:28:06 linux1 sshd[1006]: Failed password for admin from 142.146.24.37 port 16271 ssh2
+Apr 14 00:28:09 linux1 sshd[1007]: Failed password for test from 142.146.24.37 port 15470 ssh2
+Apr 14 00:28:11 linux1 sshd[1008]: Failed password for root from 142.146.24.37 port 50753 ssh2
+Apr 14 00:28:14 linux1 sshd[1009]: Failed password for invalid user test from 142.146.24.37 port 23322 ssh2
+Apr 14 00:28:46 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 00:29:04 linux1 sshd[1011]: Failed password for invalid user ubuntu from 142.146.24.37 port 40589 ssh2
+Apr 14 00:29:07 linux1 sshd[1012]: Failed password for root from 142.146.24.37 port 64798 ssh2
+Apr 14 00:29:08 linux1 sshd[1013]: Failed password for ubuntu from 142.146.24.37 port 55379 ssh2
+Apr 14 00:29:10 linux1 sshd[1014]: Failed password for invalid user admin from 142.146.24.37 port 47198 ssh2
+Apr 14 00:29:13 linux1 sshd[1015]: Failed password for invalid user admin from 142.146.24.37 port 51687 ssh2
+Apr 14 00:29:14 linux1 sshd[1016]: Failed password for invalid user admin from 142.146.24.37 port 57809 ssh2
+Apr 14 00:29:54 linux1 sshd[1017]: Failed password for root from 5.188.206.22 port 25284 ssh2
+Apr 14 00:31:28 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 00:31:42 linux1 sshd[1019]: Accepted publickey for ubuntu from 10.0.0.5 port 36029 ssh2
+Apr 14 00:31:43 linux1 systemd-logind[1020]: Session opened for user ubuntu
+Apr 14 00:38:17 linux1 systemd-logind[1021]: Session closed for user ubuntu
+Apr 14 00:39:21 linux1 sshd[1022]: Failed password for nagios from 78.128.113.66 port 46123 ssh2
+Apr 14 00:41:13 linux1 CRON[1023]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 00:41:47 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 00:42:43 linux1 sshd[1025]: Failed password for ubuntu from 142.146.24.37 port 14958 ssh2
+Apr 14 00:42:45 linux1 sshd[1026]: Failed password for invalid user admin from 142.146.24.37 port 18383 ssh2
+Apr 14 00:42:48 linux1 sshd[1027]: Failed password for ubuntu from 142.146.24.37 port 49980 ssh2
+Apr 14 00:42:51 linux1 sshd[1028]: Failed password for invalid user test from 142.146.24.37 port 24747 ssh2
+Apr 14 00:42:52 linux1 sshd[1029]: Failed password for test from 142.146.24.37 port 6981 ssh2
+Apr 14 00:42:53 linux1 sshd[1030]: Failed password for invalid user admin from 142.146.24.37 port 42144 ssh2
+Apr 14 00:42:56 linux1 sshd[1031]: Failed password for invalid user test from 142.146.24.37 port 40110 ssh2
+Apr 14 00:42:58 linux1 sshd[1032]: Failed password for invalid user test from 142.146.24.37 port 35700 ssh2
+Apr 14 00:44:13 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 00:45:45 linux1 CRON[1034]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 00:47:28 linux1 sshd[1035]: Accepted publickey for ubuntu from 10.0.0.5 port 20258 ssh2
+Apr 14 00:47:29 linux1 systemd-logind[1036]: Session opened for user ubuntu
+Apr 14 01:03:58 linux1 systemd-logind[1037]: Session closed for user ubuntu
+Apr 14 01:04:03 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 01:04:41 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 01:05:50 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 01:06:33 linux1 kernel: audit: type=1400 audit(1621234567.890:123): apparmor="ALLOWED" operation="open"
+Apr 14 01:07:55 linux1 sshd[1042]: Failed password for admin from 91.205.189.15 port 36372 ssh2
+Apr 14 01:08:00 linux1 sshd[1043]: Accepted publickey for deploy from 10.0.0.10 port 2300 ssh2
+Apr 14 01:08:01 linux1 systemd-logind[1044]: Session opened for user deploy
+Apr 14 01:08:29 linux1 sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd
+Apr 14 01:17:39 linux1 systemd-logind[1046]: Session closed for user deploy
+Apr 14 01:17:51 linux1 sshd[1047]: Failed password for root from 103.99.0.118 port 6637 ssh2
+Apr 14 01:19:33 linux1 sshd[1048]: Failed password for test from 142.146.24.37 port 63076 ssh2
+Apr 14 01:19:36 linux1 sshd[1049]: Failed password for invalid user test from 142.146.24.37 port 64224 ssh2
+Apr 14 01:19:39 linux1 sshd[1050]: Failed password for admin from 142.146.24.37 port 47747 ssh2
+Apr 14 01:19:42 linux1 sshd[1051]: Failed password for ubuntu from 142.146.24.37 port 29735 ssh2
+Apr 14 01:19:44 linux1 sshd[1052]: Failed password for invalid user root from 142.146.24.37 port 17270 ssh2
+Apr 14 01:19:46 linux1 sshd[1053]: Failed password for root from 142.146.24.37 port 39579 ssh2
+Apr 14 01:19:49 linux1 sshd[1054]: Failed password for invalid user admin from 142.146.24.37 port 1495 ssh2
+Apr 14 01:19:52 linux1 sshd[1055]: Failed password for invalid user root from 142.146.24.37 port 16027 ssh2
+Apr 14 01:19:53 linux1 sshd[1056]: Failed password for ubuntu from 142.146.24.37 port 5667 ssh2
+Apr 14 01:20:33 linux1 CRON[1057]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 01:21:47 linux1 sshd[1058]: Failed password for apache from 112.85.42.88 port 38786 ssh2
+Apr 14 01:23:35 linux1 sshd[1059]: Failed password for test from 142.146.24.37 port 24243 ssh2
+Apr 14 01:25:13 linux1 sshd[1060]: Failed password for root from 61.177.172.140 port 4996 ssh2
+Apr 14 01:25:14 linux1 sshd[1061]: Failed password for invalid user admin from 61.177.172.140 port 13580 ssh2
+Apr 14 01:25:16 linux1 sshd[1062]: Failed password for invalid user admin from 61.177.172.140 port 28672 ssh2
+Apr 14 01:25:18 linux1 sshd[1063]: Failed password for admin from 61.177.172.140 port 58334 ssh2
+Apr 14 01:25:20 linux1 sshd[1064]: Failed password for root from 61.177.172.140 port 4339 ssh2
+Apr 14 01:25:23 linux1 sshd[1065]: Failed password for invalid user root from 61.177.172.140 port 64528 ssh2
+Apr 14 01:25:24 linux1 sshd[1066]: Failed password for admin from 61.177.172.140 port 27658 ssh2
+Apr 14 01:25:25 linux1 sshd[1067]: Failed password for invalid user user from 61.177.172.140 port 60166 ssh2
+Apr 14 01:25:27 linux1 sshd[1068]: Failed password for invalid user root from 61.177.172.140 port 26610 ssh2
+Apr 14 01:27:12 linux1 CRON[1069]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 01:28:11 linux1 CRON[1070]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 01:28:35 linux1 sshd[1071]: Failed password for root from 83.82.134.124 port 38981 ssh2
+Apr 14 01:28:36 linux1 sshd[1072]: Failed password for root from 83.82.134.124 port 39308 ssh2
+Apr 14 01:28:39 linux1 sshd[1073]: Failed password for root from 83.82.134.124 port 4751 ssh2
+Apr 14 01:28:40 linux1 sshd[1074]: Failed password for root from 83.82.134.124 port 5514 ssh2
+Apr 14 01:28:43 linux1 sshd[1075]: Failed password for invalid user root from 83.82.134.124 port 27485 ssh2
+Apr 14 01:30:41 linux1 sshd[1076]: Accepted publickey for monitor from 10.0.0.15 port 39986 ssh2
+Apr 14 01:30:42 linux1 systemd-logind[1077]: Session opened for user monitor
+Apr 14 01:30:52 linux1 sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd
+Apr 14 01:54:18 linux1 systemd-logind[1079]: Session closed for user monitor
+Apr 14 01:55:37 linux1 sshd[1080]: Accepted publickey for deploy from 10.0.0.10 port 62280 ssh2
+Apr 14 01:55:38 linux1 systemd-logind[1081]: Session opened for user deploy
+Apr 14 01:56:25 linux1 sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Apr 14 02:08:08 linux1 systemd-logind[1083]: Session closed for user deploy
+Apr 14 02:08:43 linux1 sshd[1084]: Failed password for ubuntu from 142.146.24.37 port 30988 ssh2
+Apr 14 02:08:57 linux1 sshd[1085]: Failed password for invalid user ec2-user from 192.241.218.198 port 7576 ssh2
+Apr 14 02:08:58 linux1 sshd[1086]: Failed password for invalid user ubuntu from 192.241.218.198 port 58752 ssh2
+Apr 14 02:08:59 linux1 sshd[1087]: Failed password for invalid user ubuntu from 192.241.218.198 port 19700 ssh2
+Apr 14 02:09:02 linux1 sshd[1088]: Failed password for ec2-user from 192.241.218.198 port 20849 ssh2
+Apr 14 02:09:05 linux1 sshd[1089]: Failed password for ec2-user from 192.241.218.198 port 1536 ssh2
+Apr 14 02:10:20 linux1 sshd[1090]: Failed password for invalid user admin from 61.177.172.140 port 18356 ssh2
+Apr 14 02:10:21 linux1 sshd[1091]: Failed password for guest from 61.177.172.140 port 19489 ssh2
+Apr 14 02:10:24 linux1 sshd[1092]: Failed password for guest from 61.177.172.140 port 14366 ssh2
+Apr 14 02:10:26 linux1 sshd[1093]: Failed password for user from 61.177.172.140 port 17481 ssh2
+Apr 14 02:10:27 linux1 sshd[1094]: Failed password for root from 61.177.172.140 port 42592 ssh2
+Apr 14 02:10:29 linux1 sshd[1095]: Failed password for root from 61.177.172.140 port 1256 ssh2
+Apr 14 02:10:30 linux1 sshd[1096]: Failed password for guest from 61.177.172.140 port 11613 ssh2
+Apr 14 02:11:45 linux1 CRON[1097]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 02:12:04 linux1 sshd[1098]: Failed password for invalid user root from 89.248.165.52 port 36779 ssh2
+Apr 14 02:12:05 linux1 sshd[1099]: Failed password for invalid user support from 89.248.165.52 port 9376 ssh2
+Apr 14 02:12:07 linux1 sshd[1100]: Failed password for root from 89.248.165.52 port 59935 ssh2
+Apr 14 02:12:10 linux1 sshd[1101]: Failed password for invalid user root from 89.248.165.52 port 44732 ssh2
+Apr 14 02:12:13 linux1 sshd[1102]: Failed password for support from 89.248.165.52 port 64845 ssh2
+Apr 14 02:12:14 linux1 sshd[1103]: Failed password for invalid user root from 89.248.165.52 port 57686 ssh2
+Apr 14 02:12:15 linux1 sshd[1104]: Failed password for invalid user support from 89.248.165.52 port 2648 ssh2
+Apr 14 02:13:02 linux1 CRON[1105]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 02:14:49 linux1 CRON[1106]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 02:15:28 linux1 sshd[1107]: Failed password for invalid user user from 61.177.172.140 port 58182 ssh2
+Apr 14 02:15:58 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 02:16:47 linux1 sshd[1109]: Failed password for invalid user root from 218.92.0.107 port 15633 ssh2
+Apr 14 02:16:49 linux1 sshd[1110]: Failed password for root from 218.92.0.107 port 64390 ssh2
+Apr 14 02:16:51 linux1 sshd[1111]: Failed password for admin from 218.92.0.107 port 34408 ssh2
+Apr 14 02:16:54 linux1 sshd[1112]: Failed password for invalid user test from 218.92.0.107 port 62577 ssh2
+Apr 14 02:16:56 linux1 sshd[1113]: Failed password for root from 218.92.0.107 port 39073 ssh2
+Apr 14 02:17:34 linux1 sshd[1114]: Failed password for ubuntu from 192.241.218.198 port 48769 ssh2
+Apr 14 02:18:44 linux1 sshd[1115]: Failed password for invalid user root from 112.85.42.88 port 17717 ssh2
+Apr 14 02:19:55 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 02:21:27 linux1 CRON[1117]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 02:22:18 linux1 sshd[1118]: Failed password for ubuntu from 194.26.29.110 port 41863 ssh2
+Apr 14 02:23:55 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 02:24:39 linux1 CRON[1120]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 02:25:35 linux1 CRON[1121]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 02:26:04 linux1 sshd[1122]: Failed password for apache from 112.85.42.88 port 50053 ssh2
+Apr 14 02:26:47 linux1 sshd[1123]: Failed password for invalid user root from 5.188.206.22 port 19827 ssh2
+Apr 14 02:28:09 linux1 CRON[1124]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 02:29:10 linux1 sshd[1125]: Failed password for test from 142.146.24.37 port 53042 ssh2
+Apr 14 02:29:36 linux1 CRON[1126]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 02:30:46 linux1 CRON[1127]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 02:31:02 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 02:32:33 linux1 sshd[1129]: Failed password for invalid user root from 218.92.0.107 port 2624 ssh2
+Apr 14 02:33:56 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 02:34:59 linux1 sshd[1131]: Failed password for root from 192.241.218.198 port 48101 ssh2
+Apr 14 02:35:35 linux1 sshd[1132]: Failed password for root from 61.177.172.140 port 52038 ssh2
+Apr 14 02:35:38 linux1 sshd[1133]: Failed password for user from 61.177.172.140 port 4315 ssh2
+Apr 14 02:35:39 linux1 sshd[1134]: Failed password for user from 61.177.172.140 port 9762 ssh2
+Apr 14 02:35:42 linux1 sshd[1135]: Failed password for guest from 61.177.172.140 port 63285 ssh2
+Apr 14 02:35:44 linux1 sshd[1136]: Failed password for user from 61.177.172.140 port 55456 ssh2
+Apr 14 02:35:46 linux1 sshd[1137]: Failed password for admin from 61.177.172.140 port 49760 ssh2
+Apr 14 02:35:48 linux1 sshd[1138]: Failed password for invalid user guest from 61.177.172.140 port 50292 ssh2
+Apr 14 02:35:51 linux1 sshd[1139]: Failed password for guest from 61.177.172.140 port 51212 ssh2
+Apr 14 02:36:58 linux1 sshd[1140]: Accepted publickey for deploy from 10.0.0.10 port 29851 ssh2
+Apr 14 02:36:59 linux1 systemd-logind[1141]: Session opened for user deploy
+Apr 14 02:37:22 linux1 sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Apr 14 02:47:38 linux1 systemd-logind[1143]: Session closed for user deploy
+Apr 14 02:48:25 linux1 sshd[1144]: Failed password for invalid user root from 45.33.32.156 port 10908 ssh2
+Apr 14 02:50:00 linux1 sshd[1145]: Failed password for deploy from 91.205.189.15 port 36584 ssh2
+Apr 14 02:50:02 linux1 sshd[1146]: Failed password for jenkins from 91.205.189.15 port 60323 ssh2
+Apr 14 02:50:05 linux1 sshd[1147]: Failed password for root from 91.205.189.15 port 57170 ssh2
+Apr 14 02:50:08 linux1 sshd[1148]: Failed password for invalid user jenkins from 91.205.189.15 port 32283 ssh2
+Apr 14 02:50:10 linux1 sshd[1149]: Failed password for deploy from 91.205.189.15 port 50403 ssh2
+Apr 14 02:50:12 linux1 sshd[1150]: Failed password for invalid user admin from 91.205.189.15 port 33020 ssh2
+Apr 14 02:50:14 linux1 sshd[1151]: Failed password for jenkins from 91.205.189.15 port 2926 ssh2
+Apr 14 02:50:17 linux1 sshd[1152]: Failed password for invalid user jenkins from 91.205.189.15 port 48483 ssh2
+Apr 14 02:50:19 linux1 sshd[1153]: Failed password for admin from 91.205.189.15 port 65296 ssh2
+Apr 14 02:50:27 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 02:51:44 linux1 CRON[1155]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 02:53:11 linux1 sshd[1156]: Failed password for invalid user root from 89.248.165.52 port 4319 ssh2
+Apr 14 02:53:13 linux1 sshd[1157]: Failed password for support from 89.248.165.52 port 50911 ssh2
+Apr 14 02:53:15 linux1 sshd[1158]: Failed password for support from 89.248.165.52 port 17556 ssh2
+Apr 14 02:53:17 linux1 sshd[1159]: Failed password for root from 89.248.165.52 port 50112 ssh2
+Apr 14 02:53:19 linux1 sshd[1160]: Failed password for invalid user root from 89.248.165.52 port 43631 ssh2
+Apr 14 02:53:22 linux1 sshd[1161]: Failed password for invalid user root from 89.248.165.52 port 50453 ssh2
+Apr 14 02:53:58 linux1 sshd[1162]: Failed password for invalid user admin from 142.146.24.37 port 16657 ssh2
+Apr 14 02:55:15 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 02:56:49 linux1 sshd[1164]: Failed password for root from 91.205.189.15 port 51997 ssh2
+Apr 14 02:57:07 linux1 sshd[1165]: Accepted publickey for deploy from 10.0.0.10 port 38759 ssh2
+Apr 14 02:57:08 linux1 systemd-logind[1166]: Session opened for user deploy
+Apr 14 03:10:56 linux1 systemd-logind[1167]: Session closed for user deploy
+Apr 14 03:11:51 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 03:12:05 linux1 sshd[1169]: Accepted publickey for monitor from 10.0.0.15 port 16939 ssh2
+Apr 14 03:12:06 linux1 systemd-logind[1170]: Session opened for user monitor
+Apr 14 03:13:00 linux1 sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd
+Apr 14 03:37:21 linux1 systemd-logind[1172]: Session closed for user monitor
+Apr 14 03:38:42 linux1 kernel: audit: type=1400 audit(1621234567.890:123): apparmor="ALLOWED" operation="open"
+Apr 14 03:40:27 linux1 sshd[1174]: Failed password for admin from 45.33.32.156 port 5543 ssh2
+Apr 14 03:40:29 linux1 sshd[1175]: Failed password for admin from 45.33.32.156 port 7940 ssh2
+Apr 14 03:40:31 linux1 sshd[1176]: Failed password for invalid user admin from 45.33.32.156 port 47378 ssh2
+Apr 14 03:40:32 linux1 sshd[1177]: Failed password for admin from 45.33.32.156 port 41388 ssh2
+Apr 14 03:40:35 linux1 sshd[1178]: Failed password for admin from 45.33.32.156 port 31489 ssh2
+Apr 14 03:40:38 linux1 sshd[1179]: Failed password for admin from 45.33.32.156 port 22146 ssh2
+Apr 14 03:40:39 linux1 sshd[1180]: Failed password for admin from 45.33.32.156 port 58802 ssh2
+Apr 14 03:40:41 linux1 sshd[1181]: Failed password for invalid user admin from 45.33.32.156 port 23070 ssh2
+Apr 14 03:40:43 linux1 sshd[1182]: Failed password for invalid user root from 45.33.32.156 port 32976 ssh2
+Apr 14 03:42:30 linux1 sshd[1183]: Failed password for invalid user administrator from 83.82.134.124 port 37448 ssh2
+Apr 14 03:42:45 linux1 sshd[1184]: Failed password for admin from 91.205.189.15 port 46283 ssh2
+Apr 14 03:43:47 linux1 CRON[1185]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 03:44:29 linux1 sshd[1186]: Failed password for guest from 61.177.172.140 port 44537 ssh2
+Apr 14 03:45:41 linux1 sshd[1187]: Failed password for nagios from 78.128.113.66 port 22702 ssh2
+Apr 14 03:46:25 linux1 sshd[1188]: Failed password for invalid user admin from 142.146.24.37 port 21703 ssh2
+Apr 14 03:48:07 linux1 CRON[1189]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 03:48:39 linux1 CRON[1190]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 03:50:16 linux1 sshd[1191]: Accepted publickey for monitor from 10.0.0.15 port 40135 ssh2
+Apr 14 03:50:17 linux1 systemd-logind[1192]: Session opened for user monitor
+Apr 14 03:50:28 linux1 sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/apt update
+Apr 14 04:01:34 linux1 systemd-logind[1194]: Session closed for user monitor
+Apr 14 04:02:08 linux1 sshd[1195]: Failed password for invalid user root from 83.82.134.124 port 19001 ssh2
+Apr 14 04:02:11 linux1 sshd[1196]: Failed password for root from 83.82.134.124 port 42827 ssh2
+Apr 14 04:02:13 linux1 sshd[1197]: Failed password for invalid user root from 83.82.134.124 port 58218 ssh2
+Apr 14 04:02:15 linux1 sshd[1198]: Failed password for administrator from 83.82.134.124 port 32397 ssh2
+Apr 14 04:02:16 linux1 sshd[1199]: Failed password for root from 83.82.134.124 port 17570 ssh2
+Apr 14 04:03:22 linux1 sshd[1200]: Failed password for test from 142.146.24.37 port 5879 ssh2
+Apr 14 04:03:46 linux1 sshd[1201]: Failed password for ftpuser from 103.99.0.118 port 6606 ssh2
+Apr 14 04:03:48 linux1 sshd[1202]: Failed password for mysql from 103.99.0.118 port 40091 ssh2
+Apr 14 04:03:49 linux1 sshd[1203]: Failed password for mysql from 103.99.0.118 port 25952 ssh2
+Apr 14 04:03:51 linux1 sshd[1204]: Failed password for ftpuser from 103.99.0.118 port 57395 ssh2
+Apr 14 04:03:53 linux1 sshd[1205]: Failed password for ftpuser from 103.99.0.118 port 38289 ssh2
+Apr 14 04:03:56 linux1 sshd[1206]: Failed password for mysql from 103.99.0.118 port 7527 ssh2
+Apr 14 04:03:57 linux1 sshd[1207]: Failed password for invalid user mysql from 103.99.0.118 port 14853 ssh2
+Apr 14 04:03:58 linux1 sshd[1208]: Failed password for invalid user root from 103.99.0.118 port 16743 ssh2
+Apr 14 04:03:59 linux1 sshd[1209]: Failed password for root from 103.99.0.118 port 1199 ssh2
+Apr 14 04:05:32 linux1 sshd[1210]: Accepted publickey for deploy from 10.0.0.10 port 3163 ssh2
+Apr 14 04:05:33 linux1 systemd-logind[1211]: Session opened for user deploy
+Apr 14 04:06:23 linux1 sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd
+Apr 14 04:31:22 linux1 systemd-logind[1213]: Session closed for user deploy
+Apr 14 04:33:17 linux1 sshd[1214]: Failed password for guest from 61.177.172.140 port 52655 ssh2
+Apr 14 04:35:04 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 04:35:23 linux1 sshd[1216]: Failed password for invalid user ubuntu from 192.241.218.198 port 55198 ssh2
+Apr 14 04:35:25 linux1 sshd[1217]: Failed password for ec2-user from 192.241.218.198 port 50107 ssh2
+Apr 14 04:35:27 linux1 sshd[1218]: Failed password for ubuntu from 192.241.218.198 port 9173 ssh2
+Apr 14 04:35:29 linux1 sshd[1219]: Failed password for ec2-user from 192.241.218.198 port 27402 ssh2
+Apr 14 04:35:32 linux1 sshd[1220]: Failed password for ec2-user from 192.241.218.198 port 33385 ssh2
+Apr 14 04:35:35 linux1 sshd[1221]: Failed password for root from 192.241.218.198 port 59313 ssh2
+Apr 14 04:35:37 linux1 sshd[1222]: Failed password for invalid user ec2-user from 192.241.218.198 port 17432 ssh2
+Apr 14 04:35:38 linux1 sshd[1223]: Failed password for ec2-user from 192.241.218.198 port 55809 ssh2
+Apr 14 04:35:41 linux1 sshd[1224]: Failed password for root from 192.241.218.198 port 51143 ssh2
+Apr 14 04:36:20 linux1 sshd[1225]: Accepted publickey for ubuntu from 10.0.0.5 port 31858 ssh2
+Apr 14 04:36:21 linux1 systemd-logind[1226]: Session opened for user ubuntu
+Apr 14 04:52:26 linux1 systemd-logind[1227]: Session closed for user ubuntu
+Apr 14 04:53:06 linux1 sshd[1228]: Failed password for ec2-user from 192.241.218.198 port 54386 ssh2
+Apr 14 04:53:08 linux1 sshd[1229]: Failed password for ubuntu from 192.241.218.198 port 22064 ssh2
+Apr 14 04:53:09 linux1 sshd[1230]: Failed password for ubuntu from 192.241.218.198 port 28001 ssh2
+Apr 14 04:53:11 linux1 sshd[1231]: Failed password for ec2-user from 192.241.218.198 port 62968 ssh2
+Apr 14 04:53:14 linux1 sshd[1232]: Failed password for invalid user root from 192.241.218.198 port 30831 ssh2
+Apr 14 04:53:51 linux1 sshd[1233]: Failed password for admin from 78.128.113.66 port 57706 ssh2
+Apr 14 04:55:20 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 04:56:17 linux1 sshd[1235]: Failed password for admin from 45.33.32.156 port 42010 ssh2
+Apr 14 04:56:20 linux1 sshd[1236]: Failed password for invalid user root from 45.33.32.156 port 61819 ssh2
+Apr 14 04:56:23 linux1 sshd[1237]: Failed password for invalid user admin from 45.33.32.156 port 8981 ssh2
+Apr 14 04:56:26 linux1 sshd[1238]: Failed password for invalid user root from 45.33.32.156 port 47540 ssh2
+Apr 14 04:56:29 linux1 sshd[1239]: Failed password for root from 45.33.32.156 port 37216 ssh2
+Apr 14 04:57:02 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 04:58:06 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 04:59:57 linux1 sshd[1242]: Failed password for www from 112.85.42.88 port 34373 ssh2
+Apr 14 05:01:03 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 05:02:06 linux1 sshd[1244]: Accepted publickey for deploy from 10.0.0.10 port 13515 ssh2
+Apr 14 05:02:07 linux1 systemd-logind[1245]: Session opened for user deploy
+Apr 14 05:20:27 linux1 systemd-logind[1246]: Session closed for user deploy
+Apr 14 05:22:07 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 05:22:47 linux1 CRON[1248]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 05:23:35 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 05:24:14 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 05:25:51 linux1 sshd[1251]: Failed password for ec2-user from 192.241.218.198 port 33113 ssh2
+Apr 14 05:26:57 linux1 sshd[1252]: Failed password for mysql from 103.99.0.118 port 25744 ssh2
+Apr 14 05:27:00 linux1 sshd[1253]: Failed password for root from 103.99.0.118 port 38497 ssh2
+Apr 14 05:27:02 linux1 sshd[1254]: Failed password for root from 103.99.0.118 port 21876 ssh2
+Apr 14 05:27:05 linux1 sshd[1255]: Failed password for ftpuser from 103.99.0.118 port 26326 ssh2
+Apr 14 05:28:51 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 05:29:59 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 05:31:08 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 05:33:04 linux1 sshd[1259]: Failed password for admin from 162.142.125.10 port 35492 ssh2
+Apr 14 05:33:06 linux1 sshd[1260]: Failed password for admin from 162.142.125.10 port 5927 ssh2
+Apr 14 05:33:08 linux1 sshd[1261]: Failed password for root from 162.142.125.10 port 41869 ssh2
+Apr 14 05:33:11 linux1 sshd[1262]: Failed password for admin from 162.142.125.10 port 56845 ssh2
+Apr 14 05:34:42 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 05:35:27 linux1 sshd[1264]: Accepted publickey for deploy from 10.0.0.10 port 58196 ssh2
+Apr 14 05:35:28 linux1 systemd-logind[1265]: Session opened for user deploy
+Apr 14 05:57:32 linux1 systemd-logind[1266]: Session closed for user deploy
+Apr 14 05:57:45 linux1 sshd[1267]: Failed password for guest from 61.177.172.140 port 15932 ssh2
+Apr 14 05:58:02 linux1 CRON[1268]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 05:59:03 linux1 sshd[1269]: Failed password for root from 83.82.134.124 port 4038 ssh2
+Apr 14 05:59:05 linux1 sshd[1270]: Failed password for invalid user administrator from 83.82.134.124 port 10564 ssh2
+Apr 14 05:59:07 linux1 sshd[1271]: Failed password for invalid user root from 83.82.134.124 port 12164 ssh2
+Apr 14 05:59:10 linux1 sshd[1272]: Failed password for administrator from 83.82.134.124 port 41637 ssh2
+Apr 14 05:59:12 linux1 sshd[1273]: Failed password for root from 83.82.134.124 port 16240 ssh2
+Apr 14 05:59:49 linux1 sshd[1274]: Failed password for invalid user user from 61.177.172.140 port 60085 ssh2
+Apr 14 06:00:03 linux1 sshd[1275]: Failed password for administrator from 83.82.134.124 port 42897 ssh2
+Apr 14 06:01:06 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 06:02:00 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 06:02:35 linux1 sshd[1278]: Failed password for invalid user deploy from 91.205.189.15 port 46851 ssh2
+Apr 14 06:04:04 linux1 sshd[1279]: Failed password for root from 142.146.24.37 port 60702 ssh2
+Apr 14 06:06:04 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 06:07:26 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 06:08:52 linux1 sshd[1282]: Failed password for invalid user root from 83.82.134.124 port 42196 ssh2
+Apr 14 06:09:02 linux1 sshd[1283]: Failed password for invalid user deploy from 91.205.189.15 port 49019 ssh2
+Apr 14 06:09:48 linux1 CRON[1284]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 06:10:18 linux1 sshd[1285]: Failed password for admin from 45.33.32.156 port 35813 ssh2
+Apr 14 06:10:20 linux1 sshd[1286]: Failed password for admin from 45.33.32.156 port 64422 ssh2
+Apr 14 06:10:23 linux1 sshd[1287]: Failed password for invalid user admin from 45.33.32.156 port 53730 ssh2
+Apr 14 06:10:24 linux1 sshd[1288]: Failed password for root from 45.33.32.156 port 50448 ssh2
+Apr 14 06:12:19 linux1 CRON[1289]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 06:14:12 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 06:14:28 linux1 CRON[1291]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 06:15:06 linux1 sshd[1292]: Failed password for oracle from 185.220.101.44 port 50111 ssh2
+Apr 14 06:16:56 linux1 sshd[1293]: Accepted publickey for deploy from 10.0.0.10 port 8124 ssh2
+Apr 14 06:16:57 linux1 systemd-logind[1294]: Session opened for user deploy
+Apr 14 06:34:02 linux1 systemd-logind[1295]: Session closed for user deploy
+Apr 14 06:34:10 linux1 sshd[1296]: Accepted publickey for monitor from 10.0.0.15 port 22520 ssh2
+Apr 14 06:34:11 linux1 systemd-logind[1297]: Session opened for user monitor
+Apr 14 06:42:44 linux1 systemd-logind[1298]: Session closed for user monitor
+Apr 14 06:44:11 linux1 sshd[1299]: Failed password for root from 5.188.206.22 port 43572 ssh2
+Apr 14 06:44:13 linux1 sshd[1300]: Failed password for invalid user root from 5.188.206.22 port 8634 ssh2
+Apr 14 06:44:16 linux1 sshd[1301]: Failed password for root from 5.188.206.22 port 26494 ssh2
+Apr 14 06:45:46 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 06:47:00 linux1 sshd[1303]: Failed password for admin from 61.177.172.140 port 59050 ssh2
+Apr 14 06:47:03 linux1 sshd[1304]: Failed password for user from 61.177.172.140 port 62565 ssh2
+Apr 14 06:47:04 linux1 sshd[1305]: Failed password for guest from 61.177.172.140 port 15262 ssh2
+Apr 14 06:47:05 linux1 sshd[1306]: Failed password for guest from 61.177.172.140 port 7535 ssh2
+Apr 14 06:47:07 linux1 sshd[1307]: Failed password for guest from 61.177.172.140 port 4992 ssh2
+Apr 14 06:47:08 linux1 sshd[1308]: Failed password for root from 61.177.172.140 port 63218 ssh2
+Apr 14 06:48:11 linux1 sshd[1309]: Failed password for root from 142.146.24.37 port 4338 ssh2
+Apr 14 06:48:14 linux1 sshd[1310]: Failed password for admin from 142.146.24.37 port 5520 ssh2
+Apr 14 06:48:17 linux1 sshd[1311]: Failed password for invalid user admin from 142.146.24.37 port 39453 ssh2
+Apr 14 06:48:18 linux1 sshd[1312]: Failed password for invalid user ubuntu from 142.146.24.37 port 51773 ssh2
+Apr 14 06:50:18 linux1 sshd[1313]: Accepted publickey for deploy from 10.0.0.10 port 57280 ssh2
+Apr 14 06:50:19 linux1 systemd-logind[1314]: Session opened for user deploy
+Apr 14 06:55:45 linux1 systemd-logind[1315]: Session closed for user deploy
+Apr 14 06:56:59 linux1 sshd[1316]: Failed password for invalid user root from 142.146.24.37 port 9661 ssh2
+Apr 14 06:57:34 linux1 sshd[1317]: Accepted publickey for ubuntu from 10.0.0.5 port 12443 ssh2
+Apr 14 06:57:35 linux1 systemd-logind[1318]: Session opened for user ubuntu
+Apr 14 06:57:48 linux1 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Apr 14 07:13:10 linux1 systemd-logind[1320]: Session closed for user ubuntu
+Apr 14 07:14:22 linux1 sshd[1321]: Failed password for test from 142.146.24.37 port 52012 ssh2
+Apr 14 07:15:24 linux1 sshd[1322]: Failed password for root from 194.26.29.110 port 48684 ssh2
+Apr 14 07:16:35 linux1 sshd[1323]: Failed password for root from 192.241.218.198 port 5010 ssh2
+Apr 14 07:17:34 linux1 CRON[1324]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 07:19:10 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 07:21:10 linux1 sshd[1326]: Failed password for invalid user root from 192.241.218.198 port 9294 ssh2
+Apr 14 07:22:25 linux1 CRON[1327]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 07:23:46 linux1 sshd[1328]: Failed password for invalid user oracle from 185.220.101.44 port 29217 ssh2
+Apr 14 07:25:40 linux1 CRON[1329]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 07:26:40 linux1 sshd[1330]: Failed password for administrator from 83.82.134.124 port 55249 ssh2
+Apr 14 07:26:57 linux1 sshd[1331]: Failed password for administrator from 83.82.134.124 port 25554 ssh2
+Apr 14 07:28:02 linux1 sshd[1332]: Failed password for invalid user root from 5.188.206.22 port 29327 ssh2
+Apr 14 07:29:50 linux1 sshd[1333]: Failed password for invalid user ubuntu from 142.146.24.37 port 44933 ssh2
+Apr 14 07:29:52 linux1 sshd[1334]: Failed password for invalid user root from 142.146.24.37 port 64488 ssh2
+Apr 14 07:29:54 linux1 sshd[1335]: Failed password for ubuntu from 142.146.24.37 port 7813 ssh2
+Apr 14 07:29:55 linux1 sshd[1336]: Failed password for admin from 142.146.24.37 port 44063 ssh2
+Apr 14 07:29:56 linux1 sshd[1337]: Failed password for ubuntu from 142.146.24.37 port 56426 ssh2
+Apr 14 07:29:57 linux1 sshd[1338]: Failed password for invalid user ubuntu from 142.146.24.37 port 38648 ssh2
+Apr 14 07:29:59 linux1 sshd[1339]: Failed password for root from 142.146.24.37 port 40935 ssh2
+Apr 14 07:30:02 linux1 sshd[1340]: Failed password for invalid user ubuntu from 142.146.24.37 port 2921 ssh2
+Apr 14 07:31:36 linux1 CRON[1341]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 07:32:25 linux1 sshd[1342]: Failed password for admin from 89.248.165.52 port 44103 ssh2
+Apr 14 07:32:26 linux1 sshd[1343]: Failed password for root from 89.248.165.52 port 49921 ssh2
+Apr 14 07:32:28 linux1 sshd[1344]: Failed password for support from 89.248.165.52 port 30754 ssh2
+Apr 14 07:32:30 linux1 sshd[1345]: Failed password for support from 89.248.165.52 port 48314 ssh2
+Apr 14 07:32:33 linux1 sshd[1346]: Failed password for admin from 89.248.165.52 port 6591 ssh2
+Apr 14 07:32:34 linux1 sshd[1347]: Failed password for root from 89.248.165.52 port 50466 ssh2
+Apr 14 07:32:37 linux1 sshd[1348]: Failed password for root from 89.248.165.52 port 18856 ssh2
+Apr 14 07:32:39 linux1 sshd[1349]: Failed password for support from 89.248.165.52 port 40809 ssh2
+Apr 14 07:33:18 linux1 sshd[1350]: Failed password for invalid user admin from 45.33.32.156 port 29198 ssh2
+Apr 14 07:34:38 linux1 sshd[1351]: Failed password for root from 61.177.172.140 port 15475 ssh2
+Apr 14 07:34:43 linux1 sshd[1352]: Failed password for invalid user root from 194.26.29.110 port 51104 ssh2
+Apr 14 07:34:45 linux1 sshd[1353]: Failed password for invalid user ubuntu from 194.26.29.110 port 12538 ssh2
+Apr 14 07:34:48 linux1 sshd[1354]: Failed password for root from 194.26.29.110 port 33809 ssh2
+Apr 14 07:36:18 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 07:37:13 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 07:38:13 linux1 sshd[1357]: Failed password for www from 112.85.42.88 port 38756 ssh2
+Apr 14 07:39:39 linux1 sshd[1358]: Failed password for root from 142.146.24.37 port 64344 ssh2
+Apr 14 07:41:03 linux1 sshd[1359]: Failed password for guest from 61.177.172.140 port 6799 ssh2
+Apr 14 07:41:06 linux1 sshd[1360]: Failed password for invalid user user from 61.177.172.140 port 35362 ssh2
+Apr 14 07:41:08 linux1 sshd[1361]: Failed password for guest from 61.177.172.140 port 15544 ssh2
+Apr 14 07:41:09 linux1 sshd[1362]: Failed password for root from 61.177.172.140 port 34479 ssh2
+Apr 14 07:41:12 linux1 sshd[1363]: Failed password for admin from 61.177.172.140 port 60394 ssh2
+Apr 14 07:41:14 linux1 sshd[1364]: Failed password for invalid user admin from 61.177.172.140 port 16508 ssh2
+Apr 14 07:41:51 linux1 sshd[1365]: Failed password for invalid user ec2-user from 192.241.218.198 port 5962 ssh2
+Apr 14 07:42:59 linux1 sshd[1366]: Failed password for mysql from 103.99.0.118 port 30443 ssh2
+Apr 14 07:44:26 linux1 sshd[1367]: Accepted publickey for monitor from 10.0.0.15 port 22205 ssh2
+Apr 14 07:44:27 linux1 systemd-logind[1368]: Session opened for user monitor
+Apr 14 08:06:51 linux1 systemd-logind[1369]: Session closed for user monitor
+Apr 14 08:07:36 linux1 sshd[1370]: Failed password for test from 142.146.24.37 port 42402 ssh2
+Apr 14 08:07:38 linux1 sshd[1371]: Failed password for root from 142.146.24.37 port 21366 ssh2
+Apr 14 08:07:39 linux1 sshd[1372]: Failed password for root from 142.146.24.37 port 25189 ssh2
+Apr 14 08:07:53 linux1 sshd[1373]: Accepted publickey for ubuntu from 10.0.0.5 port 41329 ssh2
+Apr 14 08:07:54 linux1 systemd-logind[1374]: Session opened for user ubuntu
+Apr 14 08:22:01 linux1 systemd-logind[1375]: Session closed for user ubuntu
+Apr 14 08:23:05 linux1 sshd[1376]: Accepted publickey for monitor from 10.0.0.15 port 59736 ssh2
+Apr 14 08:23:06 linux1 systemd-logind[1377]: Session opened for user monitor
+Apr 14 08:24:02 linux1 sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Apr 14 08:47:16 linux1 systemd-logind[1379]: Session closed for user monitor
+Apr 14 08:47:45 linux1 sshd[1380]: Failed password for invalid user root from 185.220.101.44 port 63789 ssh2
+Apr 14 08:47:47 linux1 sshd[1381]: Failed password for oracle from 185.220.101.44 port 6550 ssh2
+Apr 14 08:47:48 linux1 sshd[1382]: Failed password for root from 185.220.101.44 port 17260 ssh2
+Apr 14 08:47:50 linux1 sshd[1383]: Failed password for oracle from 185.220.101.44 port 35282 ssh2
+Apr 14 08:47:52 linux1 sshd[1384]: Failed password for invalid user pi from 185.220.101.44 port 61181 ssh2
+Apr 14 08:47:54 linux1 sshd[1385]: Failed password for pi from 185.220.101.44 port 45516 ssh2
+Apr 14 08:47:57 linux1 sshd[1386]: Failed password for invalid user oracle from 185.220.101.44 port 22955 ssh2
+Apr 14 08:47:58 linux1 sshd[1387]: Failed password for oracle from 185.220.101.44 port 45482 ssh2
+Apr 14 08:48:00 linux1 sshd[1388]: Failed password for oracle from 185.220.101.44 port 56832 ssh2
+Apr 14 08:49:22 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 08:49:37 linux1 sshd[1390]: Accepted publickey for ubuntu from 10.0.0.5 port 61103 ssh2
+Apr 14 08:49:38 linux1 systemd-logind[1391]: Session opened for user ubuntu
+Apr 14 09:13:01 linux1 systemd-logind[1392]: Session closed for user ubuntu
+Apr 14 09:14:35 linux1 CRON[1393]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 09:15:56 linux1 CRON[1394]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 09:16:40 linux1 sshd[1395]: Accepted publickey for monitor from 10.0.0.15 port 52906 ssh2
+Apr 14 09:16:41 linux1 systemd-logind[1396]: Session opened for user monitor
+Apr 14 09:22:02 linux1 systemd-logind[1397]: Session closed for user monitor
+Apr 14 09:23:32 linux1 CRON[1398]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 09:24:59 linux1 CRON[1399]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 09:25:06 linux1 sshd[1400]: Failed password for admin from 142.146.24.37 port 23419 ssh2
+Apr 14 09:25:39 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 09:25:53 linux1 sshd[1402]: Failed password for admin from 218.92.0.107 port 51544 ssh2
+Apr 14 09:27:05 linux1 sshd[1403]: Failed password for root from 83.82.134.124 port 40165 ssh2
+Apr 14 09:27:08 linux1 sshd[1404]: Failed password for root from 83.82.134.124 port 48287 ssh2
+Apr 14 09:27:10 linux1 sshd[1405]: Failed password for administrator from 83.82.134.124 port 45350 ssh2
+Apr 14 09:27:12 linux1 sshd[1406]: Failed password for administrator from 83.82.134.124 port 50332 ssh2
+Apr 14 09:27:14 linux1 sshd[1407]: Failed password for invalid user root from 83.82.134.124 port 36020 ssh2
+Apr 14 09:27:16 linux1 sshd[1408]: Failed password for root from 83.82.134.124 port 25130 ssh2
+Apr 14 09:27:19 linux1 sshd[1409]: Failed password for administrator from 83.82.134.124 port 31280 ssh2
+Apr 14 09:27:21 linux1 sshd[1410]: Failed password for invalid user administrator from 83.82.134.124 port 64349 ssh2
+Apr 14 09:27:22 linux1 sshd[1411]: Failed password for invalid user root from 83.82.134.124 port 58237 ssh2
+Apr 14 09:28:49 linux1 sshd[1412]: Failed password for root from 91.205.189.15 port 47646 ssh2
+Apr 14 09:29:30 linux1 sshd[1413]: Failed password for test from 142.146.24.37 port 60354 ssh2
+Apr 14 09:29:46 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 09:31:35 linux1 sshd[1415]: Failed password for invalid user root from 83.82.134.124 port 28214 ssh2
+Apr 14 09:32:10 linux1 sshd[1416]: Failed password for admin from 142.146.24.37 port 2871 ssh2
+Apr 14 09:32:13 linux1 sshd[1417]: Failed password for invalid user ubuntu from 142.146.24.37 port 52887 ssh2
+Apr 14 09:32:14 linux1 sshd[1418]: Failed password for ubuntu from 142.146.24.37 port 61146 ssh2
+Apr 14 09:32:17 linux1 sshd[1419]: Failed password for admin from 142.146.24.37 port 50755 ssh2
+Apr 14 09:32:19 linux1 sshd[1420]: Failed password for invalid user root from 142.146.24.37 port 60390 ssh2
+Apr 14 09:32:21 linux1 sshd[1421]: Failed password for invalid user admin from 142.146.24.37 port 55744 ssh2
+Apr 14 09:32:24 linux1 sshd[1422]: Failed password for test from 142.146.24.37 port 8310 ssh2
+Apr 14 09:32:25 linux1 sshd[1423]: Failed password for invalid user ubuntu from 142.146.24.37 port 9009 ssh2
+Apr 14 09:33:23 linux1 sshd[1424]: Accepted publickey for monitor from 10.0.0.15 port 30981 ssh2
+Apr 14 09:33:24 linux1 systemd-logind[1425]: Session opened for user monitor
+Apr 14 09:34:22 linux1 sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd
+Apr 14 09:55:44 linux1 systemd-logind[1427]: Session closed for user monitor
+Apr 14 09:56:57 linux1 sshd[1428]: Failed password for invalid user root from 45.33.32.156 port 48114 ssh2
+Apr 14 09:58:20 linux1 sshd[1429]: Failed password for root from 103.99.0.118 port 44564 ssh2
+Apr 14 09:59:11 linux1 sshd[1430]: Failed password for root from 45.33.32.156 port 26612 ssh2
+Apr 14 09:59:13 linux1 sshd[1431]: Failed password for invalid user admin from 45.33.32.156 port 50000 ssh2
+Apr 14 09:59:14 linux1 sshd[1432]: Failed password for admin from 45.33.32.156 port 16826 ssh2
+Apr 14 09:59:17 linux1 sshd[1433]: Failed password for root from 45.33.32.156 port 51585 ssh2
+Apr 14 09:59:19 linux1 sshd[1434]: Failed password for root from 45.33.32.156 port 3929 ssh2
+Apr 14 09:59:21 linux1 sshd[1435]: Failed password for root from 45.33.32.156 port 55444 ssh2
+Apr 14 10:00:25 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 10:01:50 linux1 sshd[1437]: Failed password for invalid user test from 142.146.24.37 port 3447 ssh2
+Apr 14 10:01:51 linux1 sshd[1438]: Failed password for ubuntu from 142.146.24.37 port 62193 ssh2
+Apr 14 10:01:53 linux1 sshd[1439]: Failed password for invalid user test from 142.146.24.37 port 17625 ssh2
+Apr 14 10:01:56 linux1 sshd[1440]: Failed password for admin from 142.146.24.37 port 19774 ssh2
+Apr 14 10:03:40 linux1 sshd[1441]: Failed password for guest from 61.177.172.140 port 9181 ssh2
+Apr 14 10:04:36 linux1 CRON[1442]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 10:05:24 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 10:06:57 linux1 sshd[1444]: Failed password for apache from 112.85.42.88 port 18503 ssh2
+Apr 14 10:07:12 linux1 sshd[1445]: Failed password for invalid user root from 78.128.113.66 port 36772 ssh2
+Apr 14 10:07:15 linux1 sshd[1446]: Failed password for admin from 78.128.113.66 port 21110 ssh2
+Apr 14 10:07:18 linux1 sshd[1447]: Failed password for admin from 78.128.113.66 port 11945 ssh2
+Apr 14 10:07:20 linux1 sshd[1448]: Failed password for admin from 78.128.113.66 port 3799 ssh2
+Apr 14 10:07:22 linux1 sshd[1449]: Failed password for invalid user nagios from 78.128.113.66 port 29528 ssh2
+Apr 14 10:09:08 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 10:10:38 linux1 sshd[1451]: Accepted publickey for deploy from 10.0.0.10 port 34649 ssh2
+Apr 14 10:10:39 linux1 systemd-logind[1452]: Session opened for user deploy
+Apr 14 10:34:50 linux1 systemd-logind[1453]: Session closed for user deploy
+Apr 14 10:35:15 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 10:37:08 linux1 sshd[1455]: Accepted publickey for deploy from 10.0.0.10 port 3304 ssh2
+Apr 14 10:37:09 linux1 systemd-logind[1456]: Session opened for user deploy
+Apr 14 10:37:29 linux1 sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Apr 14 10:50:59 linux1 systemd-logind[1458]: Session closed for user deploy
+Apr 14 10:51:50 linux1 sshd[1459]: Failed password for mysql from 103.99.0.118 port 11079 ssh2
+Apr 14 10:52:42 linux1 sshd[1460]: Failed password for admin from 142.146.24.37 port 35722 ssh2
+Apr 14 10:52:43 linux1 sshd[1461]: Failed password for root from 142.146.24.37 port 2722 ssh2
+Apr 14 10:52:45 linux1 sshd[1462]: Failed password for test from 142.146.24.37 port 60893 ssh2
+Apr 14 10:52:47 linux1 sshd[1463]: Failed password for ubuntu from 142.146.24.37 port 47163 ssh2
+Apr 14 10:52:50 linux1 sshd[1464]: Failed password for ubuntu from 142.146.24.37 port 46504 ssh2
+Apr 14 10:53:57 linux1 sshd[1465]: Failed password for invalid user root from 142.146.24.37 port 30649 ssh2
+Apr 14 10:54:13 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 10:55:43 linux1 sshd[1467]: Failed password for invalid user ubuntu from 142.146.24.37 port 59438 ssh2
+Apr 14 10:55:46 linux1 sshd[1468]: Failed password for admin from 142.146.24.37 port 53039 ssh2
+Apr 14 10:55:47 linux1 sshd[1469]: Failed password for root from 142.146.24.37 port 14195 ssh2
+Apr 14 10:55:48 linux1 sshd[1470]: Failed password for test from 142.146.24.37 port 2746 ssh2
+Apr 14 10:55:51 linux1 sshd[1471]: Failed password for ubuntu from 142.146.24.37 port 31655 ssh2
+Apr 14 10:55:54 linux1 sshd[1472]: Failed password for admin from 142.146.24.37 port 41128 ssh2
+Apr 14 10:55:55 linux1 sshd[1473]: Failed password for ubuntu from 142.146.24.37 port 27117 ssh2
+Apr 14 10:55:58 linux1 sshd[1474]: Failed password for test from 142.146.24.37 port 35475 ssh2
+Apr 14 10:56:55 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 10:57:16 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 10:57:30 linux1 sshd[1477]: Failed password for guest from 61.177.172.140 port 9434 ssh2
+Apr 14 10:58:56 linux1 sshd[1478]: Accepted publickey for ubuntu from 10.0.0.5 port 29376 ssh2
+Apr 14 10:58:57 linux1 systemd-logind[1479]: Session opened for user ubuntu
+Apr 14 11:01:50 linux1 systemd-logind[1480]: Session closed for user ubuntu
+Apr 14 11:03:41 linux1 sshd[1481]: Failed password for admin from 142.146.24.37 port 11638 ssh2
+Apr 14 11:04:30 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 11:06:29 linux1 sshd[1483]: Failed password for admin from 142.146.24.37 port 42643 ssh2
+Apr 14 11:06:31 linux1 sshd[1484]: Failed password for root from 142.146.24.37 port 33960 ssh2
+Apr 14 11:06:34 linux1 sshd[1485]: Failed password for admin from 142.146.24.37 port 12243 ssh2
+Apr 14 11:06:37 linux1 sshd[1486]: Failed password for ubuntu from 142.146.24.37 port 56240 ssh2
+Apr 14 11:06:38 linux1 sshd[1487]: Failed password for invalid user root from 142.146.24.37 port 6347 ssh2
+Apr 14 11:06:41 linux1 sshd[1488]: Failed password for invalid user ubuntu from 142.146.24.37 port 43696 ssh2
+Apr 14 11:06:44 linux1 sshd[1489]: Failed password for test from 142.146.24.37 port 41532 ssh2
+Apr 14 11:06:46 linux1 sshd[1490]: Failed password for ubuntu from 142.146.24.37 port 43092 ssh2
+Apr 14 11:07:52 linux1 sshd[1491]: Failed password for test from 218.92.0.107 port 20516 ssh2
+Apr 14 11:08:17 linux1 sshd[1492]: Failed password for root from 185.220.101.44 port 23318 ssh2
+Apr 14 11:08:19 linux1 sshd[1493]: Failed password for oracle from 185.220.101.44 port 57435 ssh2
+Apr 14 11:08:21 linux1 sshd[1494]: Failed password for root from 185.220.101.44 port 50874 ssh2
+Apr 14 11:08:24 linux1 sshd[1495]: Failed password for invalid user root from 185.220.101.44 port 21937 ssh2
+Apr 14 11:08:25 linux1 sshd[1496]: Failed password for invalid user pi from 185.220.101.44 port 30488 ssh2
+Apr 14 11:08:26 linux1 sshd[1497]: Failed password for root from 185.220.101.44 port 20043 ssh2
+Apr 14 11:08:29 linux1 sshd[1498]: Failed password for pi from 185.220.101.44 port 17294 ssh2
+Apr 14 11:08:30 linux1 sshd[1499]: Failed password for pi from 185.220.101.44 port 62218 ssh2
+Apr 14 11:09:15 linux1 sshd[1500]: Failed password for test from 142.146.24.37 port 33710 ssh2
+Apr 14 11:09:31 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 11:10:34 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 11:11:53 linux1 sshd[1503]: Failed password for test from 142.146.24.37 port 40182 ssh2
+Apr 14 11:12:58 linux1 sshd[1504]: Failed password for invalid user root from 142.146.24.37 port 29265 ssh2
+Apr 14 11:13:00 linux1 sshd[1505]: Failed password for ubuntu from 142.146.24.37 port 3989 ssh2
+Apr 14 11:13:03 linux1 sshd[1506]: Failed password for admin from 142.146.24.37 port 24782 ssh2
+Apr 14 11:13:04 linux1 sshd[1507]: Failed password for test from 142.146.24.37 port 34070 ssh2
+Apr 14 11:13:07 linux1 sshd[1508]: Failed password for ubuntu from 142.146.24.37 port 55111 ssh2
+Apr 14 11:14:39 linux1 sshd[1509]: Accepted publickey for ubuntu from 10.0.0.5 port 64927 ssh2
+Apr 14 11:14:40 linux1 systemd-logind[1510]: Session opened for user ubuntu
+Apr 14 11:15:08 linux1 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd
+Apr 14 11:35:10 linux1 systemd-logind[1512]: Session closed for user ubuntu
+Apr 14 11:36:01 linux1 CRON[1513]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 11:37:23 linux1 sshd[1514]: Failed password for invalid user root from 185.220.101.44 port 3574 ssh2
+Apr 14 11:37:26 linux1 sshd[1515]: Failed password for pi from 185.220.101.44 port 10784 ssh2
+Apr 14 11:37:29 linux1 sshd[1516]: Failed password for root from 185.220.101.44 port 22517 ssh2
+Apr 14 11:37:31 linux1 sshd[1517]: Failed password for root from 185.220.101.44 port 26776 ssh2
+Apr 14 11:37:34 linux1 sshd[1518]: Failed password for pi from 185.220.101.44 port 39934 ssh2
+Apr 14 11:37:37 linux1 sshd[1519]: Failed password for oracle from 185.220.101.44 port 33126 ssh2
+Apr 14 11:38:20 linux1 sshd[1520]: Failed password for invalid user ubuntu from 142.146.24.37 port 45182 ssh2
+Apr 14 11:39:04 linux1 CRON[1521]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 11:40:25 linux1 sshd[1522]: Failed password for invalid user nagios from 78.128.113.66 port 38879 ssh2
+Apr 14 11:40:26 linux1 sshd[1523]: Failed password for nagios from 78.128.113.66 port 42247 ssh2
+Apr 14 11:40:28 linux1 sshd[1524]: Failed password for root from 78.128.113.66 port 54872 ssh2
+Apr 14 11:40:29 linux1 sshd[1525]: Failed password for nagios from 78.128.113.66 port 63165 ssh2
+Apr 14 11:40:30 linux1 sshd[1526]: Failed password for root from 78.128.113.66 port 29927 ssh2
+Apr 14 11:40:31 linux1 sshd[1527]: Failed password for invalid user admin from 78.128.113.66 port 46276 ssh2
+Apr 14 11:41:40 linux1 CRON[1528]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 11:43:36 linux1 kernel: audit: type=1400 audit(1621234567.890:123): apparmor="ALLOWED" operation="open"
+Apr 14 11:43:48 linux1 CRON[1530]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 11:45:04 linux1 sshd[1531]: Failed password for user from 61.177.172.140 port 21586 ssh2
+Apr 14 11:46:17 linux1 sshd[1532]: Failed password for deploy from 91.205.189.15 port 41005 ssh2
+Apr 14 11:46:57 linux1 sshd[1533]: Accepted publickey for ubuntu from 10.0.0.5 port 62725 ssh2
+Apr 14 11:46:58 linux1 systemd-logind[1534]: Session opened for user ubuntu
+Apr 14 11:58:07 linux1 systemd-logind[1535]: Session closed for user ubuntu
+Apr 14 11:59:50 linux1 sshd[1536]: Failed password for test from 142.146.24.37 port 21801 ssh2
+Apr 14 12:01:36 linux1 CRON[1537]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 12:01:56 linux1 sshd[1538]: Accepted publickey for monitor from 10.0.0.15 port 25907 ssh2
+Apr 14 12:01:57 linux1 systemd-logind[1539]: Session opened for user monitor
+Apr 14 12:16:25 linux1 systemd-logind[1540]: Session closed for user monitor
+Apr 14 12:18:14 linux1 sshd[1541]: Failed password for invalid user root from 218.92.0.107 port 20059 ssh2
+Apr 14 12:18:29 linux1 sshd[1542]: Failed password for deploy from 91.205.189.15 port 50001 ssh2
+Apr 14 12:18:31 linux1 sshd[1543]: Failed password for invalid user deploy from 91.205.189.15 port 10020 ssh2
+Apr 14 12:18:34 linux1 sshd[1544]: Failed password for invalid user admin from 91.205.189.15 port 16913 ssh2
+Apr 14 12:18:37 linux1 sshd[1545]: Failed password for invalid user admin from 91.205.189.15 port 42832 ssh2
+Apr 14 12:18:38 linux1 sshd[1546]: Failed password for jenkins from 91.205.189.15 port 22670 ssh2
+Apr 14 12:18:39 linux1 sshd[1547]: Failed password for admin from 91.205.189.15 port 1363 ssh2
+Apr 14 12:18:40 linux1 sshd[1548]: Failed password for jenkins from 91.205.189.15 port 43811 ssh2
+Apr 14 12:20:37 linux1 sshd[1549]: Failed password for invalid user guest from 61.177.172.140 port 22072 ssh2
+Apr 14 12:20:38 linux1 sshd[1550]: Failed password for admin from 61.177.172.140 port 36095 ssh2
+Apr 14 12:20:39 linux1 sshd[1551]: Failed password for admin from 61.177.172.140 port 28410 ssh2
+Apr 14 12:20:40 linux1 sshd[1552]: Failed password for root from 61.177.172.140 port 55825 ssh2
+Apr 14 12:20:42 linux1 sshd[1553]: Failed password for admin from 61.177.172.140 port 62405 ssh2
+Apr 14 12:20:44 linux1 sshd[1554]: Failed password for invalid user root from 61.177.172.140 port 1631 ssh2
+Apr 14 12:20:47 linux1 sshd[1555]: Failed password for root from 61.177.172.140 port 61871 ssh2
+Apr 14 12:20:49 linux1 sshd[1556]: Failed password for user from 61.177.172.140 port 43053 ssh2
+Apr 14 12:20:51 linux1 sshd[1557]: Failed password for admin from 61.177.172.140 port 56799 ssh2
+Apr 14 12:21:30 linux1 sshd[1558]: Failed password for admin from 142.146.24.37 port 48938 ssh2
+Apr 14 12:21:31 linux1 sshd[1559]: Failed password for invalid user ubuntu from 142.146.24.37 port 52847 ssh2
+Apr 14 12:21:34 linux1 sshd[1560]: Failed password for admin from 142.146.24.37 port 12525 ssh2
+Apr 14 12:21:37 linux1 sshd[1561]: Failed password for test from 142.146.24.37 port 55221 ssh2
+Apr 14 12:22:23 linux1 sshd[1562]: Failed password for invalid user admin from 61.177.172.140 port 65359 ssh2
+Apr 14 12:22:24 linux1 sshd[1563]: Failed password for invalid user guest from 61.177.172.140 port 26161 ssh2
+Apr 14 12:22:26 linux1 sshd[1564]: Failed password for guest from 61.177.172.140 port 20812 ssh2
+Apr 14 12:22:29 linux1 sshd[1565]: Failed password for root from 61.177.172.140 port 18165 ssh2
+Apr 14 12:24:02 linux1 sshd[1566]: Failed password for invalid user user from 61.177.172.140 port 21130 ssh2
+Apr 14 12:26:01 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 12:27:34 linux1 sshd[1568]: Failed password for www from 112.85.42.88 port 25111 ssh2
+Apr 14 12:27:36 linux1 sshd[1569]: Failed password for root from 112.85.42.88 port 30841 ssh2
+Apr 14 12:27:39 linux1 sshd[1570]: Failed password for www from 112.85.42.88 port 28276 ssh2
+Apr 14 12:27:41 linux1 sshd[1571]: Failed password for apache from 112.85.42.88 port 53583 ssh2
+Apr 14 12:28:13 linux1 CRON[1572]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 12:29:25 linux1 sshd[1573]: Failed password for root from 61.177.172.140 port 61136 ssh2
+Apr 14 12:29:28 linux1 sshd[1574]: Failed password for admin from 61.177.172.140 port 38556 ssh2
+Apr 14 12:29:29 linux1 sshd[1575]: Failed password for guest from 61.177.172.140 port 57023 ssh2
+Apr 14 12:29:30 linux1 sshd[1576]: Failed password for admin from 61.177.172.140 port 48007 ssh2
+Apr 14 12:29:31 linux1 sshd[1577]: Failed password for invalid user user from 61.177.172.140 port 54022 ssh2
+Apr 14 12:29:32 linux1 sshd[1578]: Failed password for user from 61.177.172.140 port 30960 ssh2
+Apr 14 12:29:35 linux1 sshd[1579]: Failed password for user from 61.177.172.140 port 45114 ssh2
+Apr 14 12:31:12 linux1 sshd[1580]: Failed password for invalid user root from 83.82.134.124 port 49901 ssh2
+Apr 14 12:31:14 linux1 sshd[1581]: Failed password for root from 83.82.134.124 port 36489 ssh2
+Apr 14 12:31:15 linux1 sshd[1582]: Failed password for invalid user administrator from 83.82.134.124 port 3103 ssh2
+Apr 14 12:31:16 linux1 sshd[1583]: Failed password for root from 83.82.134.124 port 51213 ssh2
+Apr 14 12:31:19 linux1 sshd[1584]: Failed password for administrator from 83.82.134.124 port 25564 ssh2
+Apr 14 12:31:21 linux1 sshd[1585]: Failed password for administrator from 83.82.134.124 port 58015 ssh2
+Apr 14 12:32:14 linux1 sshd[1586]: Failed password for admin from 61.177.172.140 port 43854 ssh2
+Apr 14 12:32:16 linux1 sshd[1587]: Failed password for admin from 61.177.172.140 port 48724 ssh2
+Apr 14 12:32:17 linux1 sshd[1588]: Failed password for invalid user root from 61.177.172.140 port 65150 ssh2
+Apr 14 12:32:20 linux1 sshd[1589]: Failed password for user from 61.177.172.140 port 35884 ssh2
+Apr 14 12:32:21 linux1 sshd[1590]: Failed password for admin from 61.177.172.140 port 31211 ssh2
+Apr 14 12:32:23 linux1 sshd[1591]: Failed password for admin from 61.177.172.140 port 62458 ssh2
+Apr 14 12:32:24 linux1 sshd[1592]: Failed password for root from 61.177.172.140 port 54073 ssh2
+Apr 14 12:33:47 linux1 CRON[1593]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 12:34:22 linux1 sshd[1594]: Failed password for root from 142.146.24.37 port 30281 ssh2
+Apr 14 12:34:33 linux1 sshd[1595]: Failed password for test from 142.146.24.37 port 16381 ssh2
+Apr 14 12:36:17 linux1 sshd[1596]: Failed password for pi from 185.220.101.44 port 16370 ssh2
+Apr 14 12:37:02 linux1 sshd[1597]: Accepted publickey for monitor from 10.0.0.15 port 54657 ssh2
+Apr 14 12:37:03 linux1 systemd-logind[1598]: Session opened for user monitor
+Apr 14 12:48:21 linux1 systemd-logind[1599]: Session closed for user monitor
+Apr 14 12:50:18 linux1 sshd[1600]: Failed password for admin from 61.177.172.140 port 28127 ssh2
+Apr 14 12:50:21 linux1 sshd[1601]: Failed password for admin from 61.177.172.140 port 42049 ssh2
+Apr 14 12:50:24 linux1 sshd[1602]: Failed password for user from 61.177.172.140 port 4096 ssh2
+Apr 14 12:50:27 linux1 sshd[1603]: Failed password for user from 61.177.172.140 port 52522 ssh2
+Apr 14 12:50:30 linux1 sshd[1604]: Failed password for invalid user user from 61.177.172.140 port 27779 ssh2
+Apr 14 12:50:32 linux1 sshd[1605]: Failed password for admin from 61.177.172.140 port 50465 ssh2
+Apr 14 12:50:33 linux1 sshd[1606]: Failed password for admin from 61.177.172.140 port 20733 ssh2
+Apr 14 12:50:56 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 12:52:12 linux1 sshd[1608]: Failed password for invalid user admin from 91.205.189.15 port 26479 ssh2
+Apr 14 12:52:13 linux1 sshd[1609]: Failed password for jenkins from 91.205.189.15 port 56541 ssh2
+Apr 14 12:52:16 linux1 sshd[1610]: Failed password for invalid user admin from 91.205.189.15 port 4401 ssh2
+Apr 14 12:52:19 linux1 sshd[1611]: Failed password for invalid user root from 91.205.189.15 port 58277 ssh2
+Apr 14 12:52:22 linux1 sshd[1612]: Failed password for invalid user admin from 91.205.189.15 port 32441 ssh2
+Apr 14 12:52:24 linux1 sshd[1613]: Failed password for deploy from 91.205.189.15 port 63743 ssh2
+Apr 14 12:52:25 linux1 sshd[1614]: Failed password for admin from 91.205.189.15 port 64074 ssh2
+Apr 14 12:52:28 linux1 sshd[1615]: Failed password for invalid user jenkins from 91.205.189.15 port 60952 ssh2
+Apr 14 12:53:50 linux1 CRON[1616]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 12:54:25 linux1 sshd[1617]: Accepted publickey for deploy from 10.0.0.10 port 25971 ssh2
+Apr 14 12:54:26 linux1 systemd-logind[1618]: Session opened for user deploy
+Apr 14 13:17:34 linux1 systemd-logind[1619]: Session closed for user deploy
+Apr 14 13:18:24 linux1 sshd[1620]: Failed password for invalid user jenkins from 91.205.189.15 port 31564 ssh2
+Apr 14 13:19:29 linux1 CRON[1621]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 13:20:00 linux1 sshd[1622]: Failed password for invalid user admin from 91.205.189.15 port 49602 ssh2
+Apr 14 13:20:03 linux1 sshd[1623]: Failed password for invalid user jenkins from 91.205.189.15 port 20369 ssh2
+Apr 14 13:20:05 linux1 sshd[1624]: Failed password for admin from 91.205.189.15 port 25917 ssh2
+Apr 14 13:20:06 linux1 sshd[1625]: Failed password for jenkins from 91.205.189.15 port 37110 ssh2
+Apr 14 13:20:09 linux1 sshd[1626]: Failed password for deploy from 91.205.189.15 port 17888 ssh2
+Apr 14 13:20:11 linux1 sshd[1627]: Failed password for invalid user jenkins from 91.205.189.15 port 31224 ssh2
+Apr 14 13:20:13 linux1 sshd[1628]: Failed password for admin from 91.205.189.15 port 10196 ssh2
+Apr 14 13:21:20 linux1 sshd[1629]: Failed password for invalid user apache from 112.85.42.88 port 63757 ssh2
+Apr 14 13:21:21 linux1 sshd[1630]: Failed password for apache from 112.85.42.88 port 4203 ssh2
+Apr 14 13:21:23 linux1 sshd[1631]: Failed password for root from 112.85.42.88 port 56241 ssh2
+Apr 14 13:21:24 linux1 sshd[1632]: Failed password for invalid user apache from 112.85.42.88 port 10921 ssh2
+Apr 14 13:21:27 linux1 sshd[1633]: Failed password for invalid user www from 112.85.42.88 port 25482 ssh2
+Apr 14 13:21:30 linux1 sshd[1634]: Failed password for apache from 112.85.42.88 port 62228 ssh2
+Apr 14 13:21:32 linux1 sshd[1635]: Failed password for invalid user apache from 112.85.42.88 port 32996 ssh2
+Apr 14 13:21:35 linux1 sshd[1636]: Failed password for invalid user apache from 112.85.42.88 port 27981 ssh2
+Apr 14 13:21:38 linux1 sshd[1637]: Failed password for apache from 112.85.42.88 port 19029 ssh2
+Apr 14 13:22:19 linux1 sshd[1638]: Failed password for admin from 218.92.0.107 port 29242 ssh2
+Apr 14 13:22:37 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 13:23:01 linux1 sshd[1640]: Failed password for ubuntu from 192.241.218.198 port 54449 ssh2
+Apr 14 13:23:16 linux1 sshd[1641]: Failed password for invalid user admin from 91.205.189.15 port 46718 ssh2
+Apr 14 13:25:09 linux1 sshd[1642]: Failed password for invalid user nagios from 78.128.113.66 port 50804 ssh2
+Apr 14 13:26:02 linux1 sshd[1643]: Accepted publickey for ubuntu from 10.0.0.5 port 42753 ssh2
+Apr 14 13:26:03 linux1 systemd-logind[1644]: Session opened for user ubuntu
+Apr 14 13:26:18 linux1 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Apr 14 13:44:21 linux1 systemd-logind[1646]: Session closed for user ubuntu
+Apr 14 13:46:14 linux1 sshd[1647]: Failed password for admin from 218.92.0.107 port 65074 ssh2
+Apr 14 13:46:15 linux1 sshd[1648]: Failed password for root from 218.92.0.107 port 14879 ssh2
+Apr 14 13:46:18 linux1 sshd[1649]: Failed password for invalid user admin from 218.92.0.107 port 32186 ssh2
+Apr 14 13:46:19 linux1 sshd[1650]: Failed password for invalid user admin from 218.92.0.107 port 61683 ssh2
+Apr 14 13:46:22 linux1 sshd[1651]: Failed password for invalid user admin from 218.92.0.107 port 44153 ssh2
+Apr 14 13:46:24 linux1 sshd[1652]: Failed password for invalid user root from 218.92.0.107 port 64034 ssh2
+Apr 14 13:46:25 linux1 sshd[1653]: Failed password for admin from 218.92.0.107 port 54822 ssh2
+Apr 14 13:46:39 linux1 sshd[1654]: Failed password for mysql from 103.99.0.118 port 55723 ssh2
+Apr 14 13:47:53 linux1 sshd[1655]: Failed password for admin from 61.177.172.140 port 52830 ssh2
+Apr 14 13:49:02 linux1 CRON[1656]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 13:49:13 linux1 sshd[1657]: Failed password for root from 83.82.134.124 port 23345 ssh2
+Apr 14 13:50:34 linux1 sshd[1658]: Failed password for invalid user root from 218.92.0.107 port 42581 ssh2
+Apr 14 13:51:41 linux1 sshd[1659]: Failed password for invalid user ftpuser from 103.99.0.118 port 29325 ssh2
+Apr 14 13:52:34 linux1 sshd[1660]: Failed password for invalid user root from 192.241.218.198 port 47758 ssh2
+Apr 14 13:52:37 linux1 sshd[1661]: Failed password for ec2-user from 192.241.218.198 port 11134 ssh2
+Apr 14 13:52:39 linux1 sshd[1662]: Failed password for invalid user ubuntu from 192.241.218.198 port 8006 ssh2
+Apr 14 13:52:41 linux1 sshd[1663]: Failed password for ubuntu from 192.241.218.198 port 24611 ssh2
+Apr 14 13:52:42 linux1 sshd[1664]: Failed password for invalid user root from 192.241.218.198 port 6745 ssh2
+Apr 14 13:52:44 linux1 sshd[1665]: Failed password for ec2-user from 192.241.218.198 port 37379 ssh2
+Apr 14 13:53:02 linux1 sshd[1666]: Failed password for root from 91.205.189.15 port 40144 ssh2
+Apr 14 13:53:03 linux1 sshd[1667]: Failed password for deploy from 91.205.189.15 port 28143 ssh2
+Apr 14 13:53:04 linux1 sshd[1668]: Failed password for admin from 91.205.189.15 port 38507 ssh2
+Apr 14 13:53:07 linux1 sshd[1669]: Failed password for invalid user jenkins from 91.205.189.15 port 12132 ssh2
+Apr 14 13:53:09 linux1 sshd[1670]: Failed password for invalid user deploy from 91.205.189.15 port 33341 ssh2
+Apr 14 13:53:10 linux1 sshd[1671]: Failed password for jenkins from 91.205.189.15 port 19109 ssh2
+Apr 14 13:54:16 linux1 CRON[1672]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 13:54:53 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 13:56:18 linux1 sshd[1674]: Failed password for invalid user ubuntu from 192.241.218.198 port 8034 ssh2
+Apr 14 13:56:20 linux1 sshd[1675]: Failed password for ec2-user from 192.241.218.198 port 25920 ssh2
+Apr 14 13:56:22 linux1 sshd[1676]: Failed password for ubuntu from 192.241.218.198 port 22961 ssh2
+Apr 14 13:56:25 linux1 sshd[1677]: Failed password for ec2-user from 192.241.218.198 port 9945 ssh2
+Apr 14 13:56:28 linux1 sshd[1678]: Failed password for ec2-user from 192.241.218.198 port 14187 ssh2
+Apr 14 13:56:29 linux1 sshd[1679]: Failed password for ubuntu from 192.241.218.198 port 64510 ssh2
+Apr 14 13:58:08 linux1 CRON[1680]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 13:59:26 linux1 CRON[1681]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 14:00:19 linux1 sshd[1682]: Failed password for test from 218.92.0.107 port 8487 ssh2
+Apr 14 14:00:20 linux1 sshd[1683]: Failed password for admin from 218.92.0.107 port 51330 ssh2
+Apr 14 14:00:23 linux1 sshd[1684]: Failed password for test from 218.92.0.107 port 62822 ssh2
+Apr 14 14:00:25 linux1 sshd[1685]: Failed password for test from 218.92.0.107 port 55502 ssh2
+Apr 14 14:00:27 linux1 sshd[1686]: Failed password for invalid user admin from 218.92.0.107 port 33746 ssh2
+Apr 14 14:00:29 linux1 sshd[1687]: Failed password for root from 218.92.0.107 port 17583 ssh2
+Apr 14 14:00:32 linux1 sshd[1688]: Failed password for test from 218.92.0.107 port 52736 ssh2
+Apr 14 14:01:34 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 14:02:53 linux1 sshd[1690]: Failed password for oracle from 185.220.101.44 port 28437 ssh2
+Apr 14 14:03:44 linux1 CRON[1691]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 14:04:02 linux1 CRON[1692]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 14:04:28 linux1 sshd[1693]: Accepted publickey for ubuntu from 10.0.0.5 port 37935 ssh2
+Apr 14 14:04:29 linux1 systemd-logind[1694]: Session opened for user ubuntu
+Apr 14 14:28:36 linux1 systemd-logind[1695]: Session closed for user ubuntu
+Apr 14 14:30:03 linux1 sshd[1696]: Failed password for invalid user user from 61.177.172.140 port 7967 ssh2
+Apr 14 14:30:06 linux1 sshd[1697]: Failed password for admin from 61.177.172.140 port 30238 ssh2
+Apr 14 14:30:08 linux1 sshd[1698]: Failed password for admin from 61.177.172.140 port 23631 ssh2
+Apr 14 14:30:10 linux1 sshd[1699]: Failed password for root from 61.177.172.140 port 20385 ssh2
+Apr 14 14:30:11 linux1 sshd[1700]: Failed password for root from 61.177.172.140 port 55505 ssh2
+Apr 14 14:30:12 linux1 sshd[1701]: Failed password for guest from 61.177.172.140 port 21464 ssh2
+Apr 14 14:30:13 linux1 sshd[1702]: Failed password for user from 61.177.172.140 port 23850 ssh2
+Apr 14 14:31:14 linux1 CRON[1703]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 14:31:59 linux1 sshd[1704]: Failed password for root from 142.146.24.37 port 2504 ssh2
+Apr 14 14:33:30 linux1 kernel: audit: type=1400 audit(1621234567.890:123): apparmor="ALLOWED" operation="open"
+Apr 14 14:34:06 linux1 sshd[1706]: Failed password for ftpuser from 103.99.0.118 port 37714 ssh2
+Apr 14 14:35:53 linux1 sshd[1707]: Failed password for invalid user test from 142.146.24.37 port 26948 ssh2
+Apr 14 14:36:23 linux1 sshd[1708]: Failed password for invalid user root from 91.205.189.15 port 47209 ssh2
+Apr 14 14:36:24 linux1 sshd[1709]: Failed password for root from 91.205.189.15 port 53420 ssh2
+Apr 14 14:36:25 linux1 sshd[1710]: Failed password for invalid user deploy from 91.205.189.15 port 22387 ssh2
+Apr 14 14:36:26 linux1 sshd[1711]: Failed password for deploy from 91.205.189.15 port 44979 ssh2
+Apr 14 14:36:29 linux1 sshd[1712]: Failed password for deploy from 91.205.189.15 port 40147 ssh2
+Apr 14 14:36:31 linux1 sshd[1713]: Failed password for root from 91.205.189.15 port 23825 ssh2
+Apr 14 14:36:33 linux1 sshd[1714]: Failed password for admin from 91.205.189.15 port 54353 ssh2
+Apr 14 14:36:35 linux1 sshd[1715]: Failed password for invalid user root from 91.205.189.15 port 45071 ssh2
+Apr 14 14:36:55 linux1 sshd[1716]: Failed password for invalid user ubuntu from 142.146.24.37 port 46469 ssh2
+Apr 14 14:36:56 linux1 sshd[1717]: Failed password for invalid user test from 142.146.24.37 port 28748 ssh2
+Apr 14 14:36:59 linux1 sshd[1718]: Failed password for invalid user admin from 142.146.24.37 port 37390 ssh2
+Apr 14 14:37:01 linux1 sshd[1719]: Failed password for admin from 142.146.24.37 port 13285 ssh2
+Apr 14 14:37:03 linux1 sshd[1720]: Failed password for root from 142.146.24.37 port 57746 ssh2
+Apr 14 14:37:04 linux1 sshd[1721]: Failed password for invalid user test from 142.146.24.37 port 9971 ssh2
+Apr 14 14:37:06 linux1 sshd[1722]: Failed password for test from 142.146.24.37 port 27837 ssh2
+Apr 14 14:38:04 linux1 CRON[1723]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 14:39:11 linux1 sshd[1724]: Failed password for invalid user root from 103.99.0.118 port 20166 ssh2
+Apr 14 14:39:12 linux1 sshd[1725]: Failed password for ftpuser from 103.99.0.118 port 38094 ssh2
+Apr 14 14:39:14 linux1 sshd[1726]: Failed password for invalid user mysql from 103.99.0.118 port 34500 ssh2
+Apr 14 14:39:15 linux1 sshd[1727]: Failed password for ftpuser from 103.99.0.118 port 51821 ssh2
+Apr 14 14:39:17 linux1 sshd[1728]: Failed password for mysql from 103.99.0.118 port 54934 ssh2
+Apr 14 14:40:59 linux1 CRON[1729]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 14:41:58 linux1 sshd[1730]: Failed password for root from 5.188.206.22 port 20534 ssh2
+Apr 14 14:42:00 linux1 sshd[1731]: Failed password for root from 5.188.206.22 port 29798 ssh2
+Apr 14 14:42:01 linux1 sshd[1732]: Failed password for root from 5.188.206.22 port 14778 ssh2
+Apr 14 14:42:04 linux1 sshd[1733]: Failed password for root from 5.188.206.22 port 57453 ssh2
+Apr 14 14:42:07 linux1 sshd[1734]: Failed password for root from 5.188.206.22 port 11901 ssh2
+Apr 14 14:43:52 linux1 sshd[1735]: Failed password for root from 142.146.24.37 port 38384 ssh2
+Apr 14 14:43:53 linux1 sshd[1736]: Failed password for ubuntu from 142.146.24.37 port 65183 ssh2
+Apr 14 14:43:55 linux1 sshd[1737]: Failed password for ubuntu from 142.146.24.37 port 63440 ssh2
+Apr 14 14:43:58 linux1 sshd[1738]: Failed password for root from 142.146.24.37 port 9909 ssh2
+Apr 14 14:44:00 linux1 sshd[1739]: Failed password for root from 142.146.24.37 port 19198 ssh2
+Apr 14 14:44:01 linux1 sshd[1740]: Failed password for invalid user admin from 142.146.24.37 port 17386 ssh2
+Apr 14 14:44:03 linux1 sshd[1741]: Failed password for admin from 142.146.24.37 port 50927 ssh2
+Apr 14 14:44:58 linux1 sshd[1742]: Failed password for ubuntu from 192.241.218.198 port 42168 ssh2
+Apr 14 14:46:24 linux1 CRON[1743]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 14:47:20 linux1 sshd[1744]: Failed password for administrator from 83.82.134.124 port 30822 ssh2
+Apr 14 14:47:23 linux1 sshd[1745]: Failed password for root from 83.82.134.124 port 48926 ssh2
+Apr 14 14:47:26 linux1 sshd[1746]: Failed password for invalid user administrator from 83.82.134.124 port 56736 ssh2
+Apr 14 14:48:39 linux1 sshd[1747]: Failed password for invalid user root from 78.128.113.66 port 33445 ssh2
+Apr 14 14:49:27 linux1 sshd[1748]: Failed password for test from 142.146.24.37 port 52686 ssh2
+Apr 14 14:49:38 linux1 sshd[1749]: Failed password for invalid user ubuntu from 192.241.218.198 port 2091 ssh2
+Apr 14 14:50:39 linux1 sshd[1750]: Failed password for admin from 78.128.113.66 port 14283 ssh2
+Apr 14 14:52:36 linux1 sshd[1751]: Accepted publickey for ubuntu from 10.0.0.5 port 58330 ssh2
+Apr 14 14:52:37 linux1 systemd-logind[1752]: Session opened for user ubuntu
+Apr 14 15:02:58 linux1 systemd-logind[1753]: Session closed for user ubuntu
+Apr 14 15:03:14 linux1 CRON[1754]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 15:03:29 linux1 sshd[1755]: Failed password for root from 112.85.42.88 port 4417 ssh2
+Apr 14 15:03:30 linux1 sshd[1756]: Failed password for invalid user www from 112.85.42.88 port 43981 ssh2
+Apr 14 15:03:31 linux1 sshd[1757]: Failed password for root from 112.85.42.88 port 15010 ssh2
+Apr 14 15:03:32 linux1 sshd[1758]: Failed password for apache from 112.85.42.88 port 15847 ssh2
+Apr 14 15:03:34 linux1 sshd[1759]: Failed password for root from 112.85.42.88 port 1552 ssh2
+Apr 14 15:03:35 linux1 sshd[1760]: Failed password for invalid user www from 112.85.42.88 port 46508 ssh2
+Apr 14 15:03:36 linux1 sshd[1761]: Failed password for invalid user root from 112.85.42.88 port 26128 ssh2
+Apr 14 15:03:37 linux1 sshd[1762]: Failed password for root from 112.85.42.88 port 21559 ssh2
+Apr 14 15:04:20 linux1 sshd[1763]: Failed password for root from 218.92.0.107 port 43070 ssh2
+Apr 14 15:04:23 linux1 sshd[1764]: Failed password for root from 218.92.0.107 port 41021 ssh2
+Apr 14 15:04:25 linux1 sshd[1765]: Failed password for invalid user test from 218.92.0.107 port 48369 ssh2
+Apr 14 15:04:28 linux1 sshd[1766]: Failed password for root from 218.92.0.107 port 61310 ssh2
+Apr 14 15:04:31 linux1 sshd[1767]: Failed password for invalid user test from 218.92.0.107 port 57382 ssh2
+Apr 14 15:04:32 linux1 sshd[1768]: Failed password for invalid user root from 218.92.0.107 port 50336 ssh2
+Apr 14 15:04:35 linux1 sshd[1769]: Failed password for test from 218.92.0.107 port 24062 ssh2
+Apr 14 15:05:20 linux1 CRON[1770]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 15:06:00 linux1 sshd[1771]: Accepted publickey for ubuntu from 10.0.0.5 port 37291 ssh2
+Apr 14 15:06:01 linux1 systemd-logind[1772]: Session opened for user ubuntu
+Apr 14 15:31:37 linux1 systemd-logind[1773]: Session closed for user ubuntu
+Apr 14 15:32:59 linux1 sshd[1774]: Failed password for root from 112.85.42.88 port 56591 ssh2
+Apr 14 15:33:30 linux1 sshd[1775]: Failed password for invalid user oracle from 185.220.101.44 port 26697 ssh2
+Apr 14 15:33:31 linux1 sshd[1776]: Failed password for invalid user pi from 185.220.101.44 port 26313 ssh2
+Apr 14 15:33:33 linux1 sshd[1777]: Failed password for invalid user oracle from 185.220.101.44 port 39947 ssh2
+Apr 14 15:33:34 linux1 sshd[1778]: Failed password for pi from 185.220.101.44 port 62229 ssh2
+Apr 14 15:33:36 linux1 sshd[1779]: Failed password for oracle from 185.220.101.44 port 28605 ssh2
+Apr 14 15:33:39 linux1 sshd[1780]: Failed password for root from 185.220.101.44 port 51010 ssh2
+Apr 14 15:33:40 linux1 sshd[1781]: Failed password for invalid user root from 185.220.101.44 port 39517 ssh2
+Apr 14 15:33:42 linux1 sshd[1782]: Failed password for root from 185.220.101.44 port 3634 ssh2
+Apr 14 15:33:44 linux1 sshd[1783]: Failed password for oracle from 185.220.101.44 port 19799 ssh2
+Apr 14 15:34:53 linux1 CRON[1784]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 15:36:27 linux1 sshd[1785]: Failed password for invalid user ec2-user from 192.241.218.198 port 41397 ssh2
+Apr 14 15:36:30 linux1 sshd[1786]: Failed password for root from 192.241.218.198 port 64876 ssh2
+Apr 14 15:36:33 linux1 sshd[1787]: Failed password for ubuntu from 192.241.218.198 port 26630 ssh2
+Apr 14 15:38:15 linux1 kernel: audit: type=1400 audit(1621234567.890:123): apparmor="ALLOWED" operation="open"
+Apr 14 15:39:42 linux1 sshd[1789]: Failed password for invalid user admin from 61.177.172.140 port 4818 ssh2
+Apr 14 15:40:01 linux1 sshd[1790]: Failed password for ubuntu from 192.241.218.198 port 44676 ssh2
+Apr 14 15:40:21 linux1 sshd[1791]: Failed password for root from 142.146.24.37 port 11760 ssh2
+Apr 14 15:40:24 linux1 sshd[1792]: Failed password for ubuntu from 142.146.24.37 port 11966 ssh2
+Apr 14 15:40:27 linux1 sshd[1793]: Failed password for ubuntu from 142.146.24.37 port 49057 ssh2
+Apr 14 15:40:28 linux1 sshd[1794]: Failed password for ubuntu from 142.146.24.37 port 53918 ssh2
+Apr 14 15:40:31 linux1 sshd[1795]: Failed password for root from 142.146.24.37 port 18256 ssh2
+Apr 14 15:40:34 linux1 sshd[1796]: Failed password for root from 142.146.24.37 port 33539 ssh2
+Apr 14 15:40:36 linux1 sshd[1797]: Failed password for root from 142.146.24.37 port 33766 ssh2
+Apr 14 15:41:02 linux1 sshd[1798]: Failed password for root from 83.82.134.124 port 59630 ssh2
+Apr 14 15:41:36 linux1 CRON[1799]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 15:41:46 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 15:42:22 linux1 sshd[1801]: Failed password for admin from 91.205.189.15 port 12752 ssh2
+Apr 14 15:43:37 linux1 kernel: audit: type=1400 audit(1621234567.890:123): apparmor="ALLOWED" operation="open"
+Apr 14 15:45:16 linux1 CRON[1803]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 15:46:02 linux1 sshd[1804]: Failed password for www from 112.85.42.88 port 18801 ssh2
+Apr 14 15:46:22 linux1 sshd[1805]: Failed password for root from 112.85.42.88 port 15650 ssh2
+Apr 14 15:47:18 linux1 sshd[1806]: Failed password for pi from 185.220.101.44 port 51717 ssh2
+Apr 14 15:47:20 linux1 sshd[1807]: Failed password for invalid user root from 185.220.101.44 port 25201 ssh2
+Apr 14 15:47:23 linux1 sshd[1808]: Failed password for pi from 185.220.101.44 port 49492 ssh2
+Apr 14 15:47:25 linux1 sshd[1809]: Failed password for pi from 185.220.101.44 port 39801 ssh2
+Apr 14 15:47:26 linux1 sshd[1810]: Failed password for oracle from 185.220.101.44 port 60035 ssh2
+Apr 14 15:47:27 linux1 sshd[1811]: Failed password for root from 185.220.101.44 port 1441 ssh2
+Apr 14 15:47:28 linux1 sshd[1812]: Failed password for root from 185.220.101.44 port 36514 ssh2
+Apr 14 15:49:20 linux1 CRON[1813]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 15:50:07 linux1 sshd[1814]: Failed password for invalid user guest from 61.177.172.140 port 7836 ssh2
+Apr 14 15:51:05 linux1 sshd[1815]: Failed password for invalid user admin from 142.146.24.37 port 47662 ssh2
+Apr 14 15:51:08 linux1 sshd[1816]: Failed password for test from 142.146.24.37 port 46954 ssh2
+Apr 14 15:51:10 linux1 sshd[1817]: Failed password for invalid user root from 142.146.24.37 port 39085 ssh2
+Apr 14 15:51:11 linux1 sshd[1818]: Failed password for test from 142.146.24.37 port 5928 ssh2
+Apr 14 15:51:23 linux1 sshd[1819]: Failed password for invalid user root from 78.128.113.66 port 20139 ssh2
+Apr 14 15:51:25 linux1 sshd[1820]: Failed password for nagios from 78.128.113.66 port 55543 ssh2
+Apr 14 15:51:27 linux1 sshd[1821]: Failed password for invalid user admin from 78.128.113.66 port 18846 ssh2
+Apr 14 15:51:28 linux1 sshd[1822]: Failed password for root from 78.128.113.66 port 52137 ssh2
+Apr 14 15:51:29 linux1 sshd[1823]: Failed password for invalid user root from 78.128.113.66 port 7948 ssh2
+Apr 14 15:51:31 linux1 sshd[1824]: Failed password for invalid user admin from 78.128.113.66 port 27665 ssh2
+Apr 14 15:51:33 linux1 sshd[1825]: Failed password for root from 78.128.113.66 port 30640 ssh2
+Apr 14 15:51:35 linux1 sshd[1826]: Failed password for invalid user root from 78.128.113.66 port 6949 ssh2
+Apr 14 15:51:38 linux1 sshd[1827]: Failed password for admin from 78.128.113.66 port 55182 ssh2
+Apr 14 15:53:00 linux1 sshd[1828]: Failed password for invalid user root from 5.188.206.22 port 10744 ssh2
+Apr 14 15:53:02 linux1 sshd[1829]: Failed password for invalid user root from 5.188.206.22 port 45403 ssh2
+Apr 14 15:53:03 linux1 sshd[1830]: Failed password for root from 5.188.206.22 port 63420 ssh2
+Apr 14 15:53:05 linux1 sshd[1831]: Failed password for root from 5.188.206.22 port 7231 ssh2
+Apr 14 15:53:06 linux1 sshd[1832]: Failed password for invalid user root from 5.188.206.22 port 1807 ssh2
+Apr 14 15:54:50 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 15:55:20 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 15:56:52 linux1 sshd[1835]: Accepted publickey for monitor from 10.0.0.15 port 6531 ssh2
+Apr 14 15:56:53 linux1 systemd-logind[1836]: Session opened for user monitor
+Apr 14 16:06:43 linux1 systemd-logind[1837]: Session closed for user monitor
+Apr 14 16:08:32 linux1 sshd[1838]: Failed password for root from 78.128.113.66 port 60169 ssh2
+Apr 14 16:08:48 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 16:09:08 linux1 sshd[1840]: Failed password for root from 185.220.101.44 port 61587 ssh2
+Apr 14 16:10:03 linux1 sshd[1841]: Failed password for jenkins from 91.205.189.15 port 12349 ssh2
+Apr 14 16:10:43 linux1 sshd[1842]: Failed password for root from 112.85.42.88 port 41270 ssh2
+Apr 14 16:10:45 linux1 sshd[1843]: Failed password for www from 112.85.42.88 port 58877 ssh2
+Apr 14 16:10:46 linux1 sshd[1844]: Failed password for root from 112.85.42.88 port 19359 ssh2
+Apr 14 16:10:48 linux1 sshd[1845]: Failed password for root from 112.85.42.88 port 43140 ssh2
+Apr 14 16:10:51 linux1 sshd[1846]: Failed password for root from 112.85.42.88 port 42361 ssh2
+Apr 14 16:12:05 linux1 CRON[1847]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 16:13:50 linux1 CRON[1848]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 16:15:04 linux1 CRON[1849]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 16:16:21 linux1 sshd[1850]: Failed password for admin from 91.205.189.15 port 2732 ssh2
+Apr 14 16:16:23 linux1 sshd[1851]: Failed password for root from 91.205.189.15 port 54019 ssh2
+Apr 14 16:16:26 linux1 sshd[1852]: Failed password for deploy from 91.205.189.15 port 51279 ssh2
+Apr 14 16:16:27 linux1 sshd[1853]: Failed password for invalid user admin from 91.205.189.15 port 7586 ssh2
+Apr 14 16:16:28 linux1 sshd[1854]: Failed password for deploy from 91.205.189.15 port 35999 ssh2
+Apr 14 16:16:31 linux1 sshd[1855]: Failed password for root from 91.205.189.15 port 51096 ssh2
+Apr 14 16:16:32 linux1 sshd[1856]: Failed password for jenkins from 91.205.189.15 port 24276 ssh2
+Apr 14 16:16:33 linux1 sshd[1857]: Failed password for admin from 91.205.189.15 port 16526 ssh2
+Apr 14 16:16:36 linux1 sshd[1858]: Failed password for deploy from 91.205.189.15 port 60922 ssh2
+Apr 14 16:18:11 linux1 CRON[1859]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 16:19:28 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 16:20:42 linux1 sshd[1861]: Failed password for invalid user root from 185.220.101.44 port 4705 ssh2
+Apr 14 16:20:44 linux1 sshd[1862]: Failed password for root from 185.220.101.44 port 22764 ssh2
+Apr 14 16:20:45 linux1 sshd[1863]: Failed password for root from 185.220.101.44 port 23355 ssh2
+Apr 14 16:20:47 linux1 sshd[1864]: Failed password for invalid user root from 185.220.101.44 port 2460 ssh2
+Apr 14 16:20:50 linux1 sshd[1865]: Failed password for invalid user root from 185.220.101.44 port 51772 ssh2
+Apr 14 16:20:53 linux1 sshd[1866]: Failed password for invalid user pi from 185.220.101.44 port 63975 ssh2
+Apr 14 16:20:56 linux1 sshd[1867]: Failed password for oracle from 185.220.101.44 port 26949 ssh2
+Apr 14 16:21:44 linux1 sshd[1868]: Failed password for admin from 142.146.24.37 port 49019 ssh2
+Apr 14 16:22:51 linux1 sshd[1869]: Accepted publickey for ubuntu from 10.0.0.5 port 47369 ssh2
+Apr 14 16:22:52 linux1 systemd-logind[1870]: Session opened for user ubuntu
+Apr 14 16:47:32 linux1 systemd-logind[1871]: Session closed for user ubuntu
+Apr 14 16:49:30 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 16:50:03 linux1 CRON[1873]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 16:50:56 linux1 sshd[1874]: Failed password for admin from 61.177.172.140 port 12670 ssh2
+Apr 14 16:52:14 linux1 sshd[1875]: Failed password for invalid user nagios from 78.128.113.66 port 3146 ssh2
+Apr 14 16:52:17 linux1 sshd[1876]: Failed password for root from 78.128.113.66 port 42943 ssh2
+Apr 14 16:52:19 linux1 sshd[1877]: Failed password for root from 78.128.113.66 port 22727 ssh2
+Apr 14 16:52:20 linux1 sshd[1878]: Failed password for admin from 78.128.113.66 port 65405 ssh2
+Apr 14 16:52:23 linux1 sshd[1879]: Failed password for root from 78.128.113.66 port 54872 ssh2
+Apr 14 16:52:26 linux1 sshd[1880]: Failed password for nagios from 78.128.113.66 port 59131 ssh2
+Apr 14 16:52:27 linux1 sshd[1881]: Failed password for invalid user admin from 78.128.113.66 port 14765 ssh2
+Apr 14 16:52:28 linux1 sshd[1882]: Failed password for admin from 78.128.113.66 port 17844 ssh2
+Apr 14 16:52:31 linux1 sshd[1883]: Failed password for root from 78.128.113.66 port 4179 ssh2
+Apr 14 16:54:09 linux1 sshd[1884]: Failed password for test from 142.146.24.37 port 33338 ssh2
+Apr 14 16:54:10 linux1 sshd[1885]: Failed password for test from 142.146.24.37 port 52714 ssh2
+Apr 14 16:54:13 linux1 sshd[1886]: Failed password for admin from 142.146.24.37 port 11683 ssh2
+Apr 14 16:54:14 linux1 sshd[1887]: Failed password for ubuntu from 142.146.24.37 port 2339 ssh2
+Apr 14 16:54:15 linux1 sshd[1888]: Failed password for invalid user root from 142.146.24.37 port 23424 ssh2
+Apr 14 16:54:17 linux1 sshd[1889]: Failed password for invalid user admin from 142.146.24.37 port 48995 ssh2
+Apr 14 16:56:16 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 16:57:37 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 16:59:12 linux1 sshd[1892]: Failed password for root from 112.85.42.88 port 40825 ssh2
+Apr 14 16:59:14 linux1 sshd[1893]: Failed password for invalid user root from 112.85.42.88 port 64882 ssh2
+Apr 14 16:59:17 linux1 sshd[1894]: Failed password for apache from 112.85.42.88 port 48343 ssh2
+Apr 14 17:00:31 linux1 sshd[1895]: Failed password for invalid user root from 83.82.134.124 port 7309 ssh2
+Apr 14 17:02:23 linux1 sshd[1896]: Failed password for invalid user root from 142.146.24.37 port 29047 ssh2
+Apr 14 17:03:48 linux1 sshd[1897]: Accepted publickey for ubuntu from 10.0.0.5 port 7380 ssh2
+Apr 14 17:03:49 linux1 systemd-logind[1898]: Session opened for user ubuntu
+Apr 14 17:04:04 linux1 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Apr 14 17:15:01 linux1 systemd-logind[1900]: Session closed for user ubuntu
+Apr 14 17:15:16 linux1 sshd[1901]: Failed password for test from 142.146.24.37 port 31887 ssh2
+Apr 14 17:15:32 linux1 sshd[1902]: Accepted publickey for deploy from 10.0.0.10 port 13140 ssh2
+Apr 14 17:15:33 linux1 systemd-logind[1903]: Session opened for user deploy
+Apr 14 17:29:34 linux1 systemd-logind[1904]: Session closed for user deploy
+Apr 14 17:30:26 linux1 sshd[1905]: Failed password for invalid user test from 142.146.24.37 port 31502 ssh2
+Apr 14 17:31:43 linux1 sshd[1906]: Failed password for root from 61.177.172.140 port 6640 ssh2
+Apr 14 17:32:40 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 17:33:14 linux1 sshd[1908]: Accepted publickey for deploy from 10.0.0.10 port 54659 ssh2
+Apr 14 17:33:15 linux1 systemd-logind[1909]: Session opened for user deploy
+Apr 14 17:52:31 linux1 systemd-logind[1910]: Session closed for user deploy
+Apr 14 17:54:03 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 17:55:21 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 17:56:04 linux1 sshd[1913]: Failed password for apache from 112.85.42.88 port 3299 ssh2
+Apr 14 17:57:51 linux1 sshd[1914]: Accepted publickey for monitor from 10.0.0.15 port 10687 ssh2
+Apr 14 17:57:52 linux1 systemd-logind[1915]: Session opened for user monitor
+Apr 14 17:58:45 linux1 sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd
+Apr 14 18:05:39 linux1 systemd-logind[1917]: Session closed for user monitor
+Apr 14 18:06:05 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 18:06:26 linux1 sshd[1919]: Failed password for test from 142.146.24.37 port 14256 ssh2
+Apr 14 18:08:17 linux1 sshd[1920]: Accepted publickey for deploy from 10.0.0.10 port 60714 ssh2
+Apr 14 18:08:18 linux1 systemd-logind[1921]: Session opened for user deploy
+Apr 14 18:36:51 linux1 systemd-logind[1922]: Session closed for user deploy
+Apr 14 18:37:04 linux1 sshd[1923]: Failed password for mysql from 103.99.0.118 port 22397 ssh2
+Apr 14 18:39:00 linux1 sshd[1924]: Failed password for user from 61.177.172.140 port 8398 ssh2
+Apr 14 18:39:03 linux1 sshd[1925]: Failed password for invalid user root from 61.177.172.140 port 61640 ssh2
+Apr 14 18:39:04 linux1 sshd[1926]: Failed password for guest from 61.177.172.140 port 57874 ssh2
+Apr 14 18:39:06 linux1 sshd[1927]: Failed password for user from 61.177.172.140 port 18334 ssh2
+Apr 14 18:39:08 linux1 sshd[1928]: Failed password for invalid user user from 61.177.172.140 port 3479 ssh2
+Apr 14 18:39:10 linux1 sshd[1929]: Failed password for admin from 61.177.172.140 port 41541 ssh2
+Apr 14 18:39:13 linux1 sshd[1930]: Failed password for user from 61.177.172.140 port 3565 ssh2
+Apr 14 18:41:10 linux1 sshd[1931]: Failed password for invalid user administrator from 83.82.134.124 port 61371 ssh2
+Apr 14 18:41:12 linux1 sshd[1932]: Failed password for administrator from 83.82.134.124 port 19396 ssh2
+Apr 14 18:41:15 linux1 sshd[1933]: Failed password for root from 83.82.134.124 port 64757 ssh2
+Apr 14 18:41:16 linux1 sshd[1934]: Failed password for administrator from 83.82.134.124 port 64870 ssh2
+Apr 14 18:41:18 linux1 sshd[1935]: Failed password for administrator from 83.82.134.124 port 48786 ssh2
+Apr 14 18:42:45 linux1 sshd[1936]: Failed password for jenkins from 91.205.189.15 port 49582 ssh2
+Apr 14 18:43:37 linux1 kernel: audit: type=1400 audit(1621234567.890:123): apparmor="ALLOWED" operation="open"
+Apr 14 18:45:23 linux1 sshd[1938]: Failed password for administrator from 83.82.134.124 port 9913 ssh2
+Apr 14 18:46:40 linux1 sshd[1939]: Failed password for invalid user admin from 142.146.24.37 port 55876 ssh2
+Apr 14 18:46:42 linux1 sshd[1940]: Failed password for admin from 142.146.24.37 port 18979 ssh2
+Apr 14 18:46:44 linux1 sshd[1941]: Failed password for test from 142.146.24.37 port 42666 ssh2
+Apr 14 18:48:16 linux1 sshd[1942]: Failed password for jenkins from 91.205.189.15 port 12662 ssh2
+Apr 14 18:49:31 linux1 sshd[1943]: Failed password for ubuntu from 142.146.24.37 port 50107 ssh2
+Apr 14 18:49:33 linux1 sshd[1944]: Failed password for root from 142.146.24.37 port 11700 ssh2
+Apr 14 18:49:34 linux1 sshd[1945]: Failed password for invalid user admin from 142.146.24.37 port 43450 ssh2
+Apr 14 18:50:05 linux1 sshd[1946]: Failed password for root from 91.205.189.15 port 57688 ssh2
+Apr 14 18:50:11 linux1 sshd[1947]: Failed password for admin from 142.146.24.37 port 40420 ssh2
+Apr 14 18:50:13 linux1 sshd[1948]: Failed password for ubuntu from 142.146.24.37 port 28798 ssh2
+Apr 14 18:50:15 linux1 sshd[1949]: Failed password for invalid user test from 142.146.24.37 port 17538 ssh2
+Apr 14 18:50:17 linux1 sshd[1950]: Failed password for invalid user test from 142.146.24.37 port 39328 ssh2
+Apr 14 18:50:20 linux1 sshd[1951]: Failed password for ubuntu from 142.146.24.37 port 37819 ssh2
+Apr 14 18:50:23 linux1 sshd[1952]: Failed password for ubuntu from 142.146.24.37 port 20584 ssh2
+Apr 14 18:50:25 linux1 sshd[1953]: Failed password for root from 142.146.24.37 port 23062 ssh2
+Apr 14 18:51:51 linux1 sshd[1954]: Failed password for invalid user administrator from 83.82.134.124 port 13368 ssh2
+Apr 14 18:53:51 linux1 sshd[1955]: Failed password for admin from 89.248.165.52 port 27506 ssh2
+Apr 14 18:55:28 linux1 sshd[1956]: Failed password for pi from 185.220.101.44 port 18025 ssh2
+Apr 14 18:57:07 linux1 sshd[1957]: Failed password for admin from 61.177.172.140 port 23513 ssh2
+Apr 14 18:57:10 linux1 sshd[1958]: Failed password for user from 61.177.172.140 port 60434 ssh2
+Apr 14 18:57:12 linux1 sshd[1959]: Failed password for invalid user guest from 61.177.172.140 port 56429 ssh2
+Apr 14 18:57:15 linux1 sshd[1960]: Failed password for invalid user admin from 61.177.172.140 port 20277 ssh2
+Apr 14 18:57:16 linux1 sshd[1961]: Failed password for guest from 61.177.172.140 port 48549 ssh2
+Apr 14 18:57:17 linux1 sshd[1962]: Failed password for invalid user guest from 61.177.172.140 port 43913 ssh2
+Apr 14 18:57:19 linux1 sshd[1963]: Failed password for admin from 61.177.172.140 port 49796 ssh2
+Apr 14 18:58:17 linux1 CRON[1964]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 18:59:09 linux1 sshd[1965]: Failed password for invalid user root from 83.82.134.124 port 31861 ssh2
+Apr 14 19:00:28 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 19:01:33 linux1 kernel: audit: type=1400 audit(1621234567.890:123): apparmor="ALLOWED" operation="open"
+Apr 14 19:01:53 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 19:03:05 linux1 sshd[1969]: Failed password for admin from 142.146.24.37 port 10026 ssh2
+Apr 14 19:03:07 linux1 sshd[1970]: Failed password for admin from 142.146.24.37 port 21758 ssh2
+Apr 14 19:03:08 linux1 sshd[1971]: Failed password for root from 142.146.24.37 port 32978 ssh2
+Apr 14 19:03:09 linux1 sshd[1972]: Failed password for invalid user ubuntu from 142.146.24.37 port 42606 ssh2
+Apr 14 19:03:11 linux1 sshd[1973]: Failed password for ubuntu from 142.146.24.37 port 14746 ssh2
+Apr 14 19:03:12 linux1 sshd[1974]: Failed password for admin from 142.146.24.37 port 33108 ssh2
+Apr 14 19:03:13 linux1 sshd[1975]: Failed password for admin from 142.146.24.37 port 41294 ssh2
+Apr 14 19:04:12 linux1 sshd[1976]: Failed password for invalid user admin from 78.128.113.66 port 1329 ssh2
+Apr 14 19:04:13 linux1 sshd[1977]: Failed password for admin from 78.128.113.66 port 50624 ssh2
+Apr 14 19:04:14 linux1 sshd[1978]: Failed password for invalid user root from 78.128.113.66 port 45375 ssh2
+Apr 14 19:04:17 linux1 sshd[1979]: Failed password for root from 78.128.113.66 port 15852 ssh2
+Apr 14 19:04:19 linux1 sshd[1980]: Failed password for invalid user admin from 78.128.113.66 port 9473 ssh2
+Apr 14 19:05:28 linux1 sshd[1981]: Accepted publickey for ubuntu from 10.0.0.5 port 5302 ssh2
+Apr 14 19:05:29 linux1 systemd-logind[1982]: Session opened for user ubuntu
+Apr 14 19:16:39 linux1 systemd-logind[1983]: Session closed for user ubuntu
+Apr 14 19:17:21 linux1 sshd[1984]: Failed password for admin from 45.33.32.156 port 29444 ssh2
+Apr 14 19:18:09 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 19:18:59 linux1 CRON[1986]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 19:20:47 linux1 sshd[1987]: Failed password for root from 83.82.134.124 port 14864 ssh2
+Apr 14 19:21:13 linux1 sshd[1988]: Failed password for root from 61.177.172.140 port 25612 ssh2
+Apr 14 19:21:16 linux1 sshd[1989]: Failed password for root from 61.177.172.140 port 39947 ssh2
+Apr 14 19:21:19 linux1 sshd[1990]: Failed password for root from 61.177.172.140 port 43856 ssh2
+Apr 14 19:21:20 linux1 sshd[1991]: Failed password for root from 61.177.172.140 port 28337 ssh2
+Apr 14 19:21:21 linux1 sshd[1992]: Failed password for guest from 61.177.172.140 port 32114 ssh2
+Apr 14 19:21:22 linux1 sshd[1993]: Failed password for root from 61.177.172.140 port 20757 ssh2
+Apr 14 19:21:23 linux1 sshd[1994]: Failed password for guest from 61.177.172.140 port 41839 ssh2
+Apr 14 19:21:45 linux1 sshd[1995]: Failed password for apache from 112.85.42.88 port 48129 ssh2
+Apr 14 19:21:46 linux1 sshd[1996]: Failed password for www from 112.85.42.88 port 14042 ssh2
+Apr 14 19:21:48 linux1 sshd[1997]: Failed password for invalid user apache from 112.85.42.88 port 64798 ssh2
+Apr 14 19:21:51 linux1 sshd[1998]: Failed password for invalid user www from 112.85.42.88 port 20380 ssh2
+Apr 14 19:21:54 linux1 sshd[1999]: Failed password for invalid user www from 112.85.42.88 port 60685 ssh2
+Apr 14 19:21:56 linux1 sshd[2000]: Failed password for invalid user www from 112.85.42.88 port 16392 ssh2
+Apr 14 19:21:59 linux1 sshd[2001]: Failed password for invalid user root from 112.85.42.88 port 60457 ssh2
+Apr 14 19:22:02 linux1 sshd[2002]: Failed password for invalid user apache from 112.85.42.88 port 33405 ssh2
+Apr 14 19:22:03 linux1 sshd[2003]: Failed password for apache from 112.85.42.88 port 5942 ssh2
+Apr 14 19:22:20 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 19:22:54 linux1 sshd[2005]: Failed password for invalid user admin from 78.128.113.66 port 31450 ssh2
+Apr 14 19:24:50 linux1 sshd[2006]: Failed password for administrator from 83.82.134.124 port 28942 ssh2
+Apr 14 19:24:51 linux1 sshd[2007]: Failed password for invalid user root from 83.82.134.124 port 56860 ssh2
+Apr 14 19:24:54 linux1 sshd[2008]: Failed password for root from 83.82.134.124 port 22563 ssh2
+Apr 14 19:24:56 linux1 sshd[2009]: Failed password for administrator from 83.82.134.124 port 58595 ssh2
+Apr 14 19:24:58 linux1 sshd[2010]: Failed password for invalid user administrator from 83.82.134.124 port 13008 ssh2
+Apr 14 19:25:00 linux1 sshd[2011]: Failed password for administrator from 83.82.134.124 port 18838 ssh2
+Apr 14 19:25:03 linux1 sshd[2012]: Failed password for administrator from 83.82.134.124 port 53446 ssh2
+Apr 14 19:25:04 linux1 sshd[2013]: Failed password for root from 83.82.134.124 port 9708 ssh2
+Apr 14 19:25:05 linux1 sshd[2014]: Failed password for root from 83.82.134.124 port 7820 ssh2
+Apr 14 19:26:25 linux1 sshd[2015]: Failed password for ftpuser from 103.99.0.118 port 12903 ssh2
+Apr 14 19:27:48 linux1 sshd[2016]: Failed password for admin from 61.177.172.140 port 32683 ssh2
+Apr 14 19:27:50 linux1 sshd[2017]: Failed password for invalid user root from 61.177.172.140 port 5174 ssh2
+Apr 14 19:27:52 linux1 sshd[2018]: Failed password for root from 61.177.172.140 port 47198 ssh2
+Apr 14 19:27:55 linux1 sshd[2019]: Failed password for admin from 61.177.172.140 port 65111 ssh2
+Apr 14 19:27:57 linux1 sshd[2020]: Failed password for root from 61.177.172.140 port 29391 ssh2
+Apr 14 19:27:58 linux1 sshd[2021]: Failed password for user from 61.177.172.140 port 23683 ssh2
+Apr 14 19:29:25 linux1 sshd[2022]: Failed password for root from 5.188.206.22 port 1787 ssh2
+Apr 14 19:29:27 linux1 sshd[2023]: Failed password for invalid user root from 5.188.206.22 port 58002 ssh2
+Apr 14 19:29:29 linux1 sshd[2024]: Failed password for root from 5.188.206.22 port 16811 ssh2
+Apr 14 19:29:31 linux1 sshd[2025]: Failed password for invalid user root from 5.188.206.22 port 34246 ssh2
+Apr 14 19:29:34 linux1 sshd[2026]: Failed password for root from 5.188.206.22 port 27453 ssh2
+Apr 14 19:29:35 linux1 sshd[2027]: Failed password for root from 5.188.206.22 port 30134 ssh2
+Apr 14 19:29:37 linux1 sshd[2028]: Failed password for root from 5.188.206.22 port 57161 ssh2
+Apr 14 19:29:39 linux1 sshd[2029]: Failed password for root from 5.188.206.22 port 65293 ssh2
+Apr 14 19:29:42 linux1 sshd[2030]: Failed password for root from 5.188.206.22 port 7750 ssh2
+Apr 14 19:29:51 linux1 sshd[2031]: Accepted publickey for ubuntu from 10.0.0.5 port 55150 ssh2
+Apr 14 19:29:52 linux1 systemd-logind[2032]: Session opened for user ubuntu
+Apr 14 19:30:35 linux1 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Apr 14 19:53:20 linux1 systemd-logind[2034]: Session closed for user ubuntu
+Apr 14 19:54:03 linux1 kernel: audit: type=1400 audit(1621234567.890:123): apparmor="ALLOWED" operation="open"
+Apr 14 19:54:34 linux1 CRON[2036]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 19:55:22 linux1 sshd[2037]: Failed password for admin from 142.146.24.37 port 56357 ssh2
+Apr 14 19:56:46 linux1 sshd[2038]: Accepted publickey for monitor from 10.0.0.15 port 44092 ssh2
+Apr 14 19:56:47 linux1 systemd-logind[2039]: Session opened for user monitor
+Apr 14 20:13:13 linux1 systemd-logind[2040]: Session closed for user monitor
+Apr 14 20:13:32 linux1 sshd[2041]: Failed password for root from 61.177.172.140 port 23395 ssh2
+Apr 14 20:15:19 linux1 sshd[2042]: Failed password for root from 45.33.32.156 port 4024 ssh2
+Apr 14 20:17:09 linux1 CRON[2043]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 20:17:27 linux1 sshd[2044]: Failed password for root from 142.146.24.37 port 61986 ssh2
+Apr 14 20:17:28 linux1 sshd[2045]: Failed password for ubuntu from 142.146.24.37 port 8086 ssh2
+Apr 14 20:17:29 linux1 sshd[2046]: Failed password for root from 142.146.24.37 port 51627 ssh2
+Apr 14 20:17:31 linux1 sshd[2047]: Failed password for admin from 142.146.24.37 port 64191 ssh2
+Apr 14 20:17:34 linux1 sshd[2048]: Failed password for root from 142.146.24.37 port 37280 ssh2
+Apr 14 20:17:37 linux1 sshd[2049]: Failed password for test from 142.146.24.37 port 61603 ssh2
+Apr 14 20:17:38 linux1 sshd[2050]: Failed password for admin from 142.146.24.37 port 48897 ssh2
+Apr 14 20:17:39 linux1 sshd[2051]: Failed password for test from 142.146.24.37 port 44115 ssh2
+Apr 14 20:17:41 linux1 sshd[2052]: Failed password for test from 142.146.24.37 port 28461 ssh2
+Apr 14 20:19:14 linux1 CRON[2053]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 20:20:09 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 20:21:11 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 20:22:08 linux1 sshd[2056]: Accepted publickey for monitor from 10.0.0.15 port 34597 ssh2
+Apr 14 20:22:09 linux1 systemd-logind[2057]: Session opened for user monitor
+Apr 14 20:22:58 linux1 sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Apr 14 20:34:40 linux1 systemd-logind[2059]: Session closed for user monitor
+Apr 14 20:36:16 linux1 CRON[2060]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 20:36:46 linux1 sshd[2061]: Failed password for guest from 61.177.172.140 port 61395 ssh2
+Apr 14 20:38:14 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 20:39:23 linux1 sshd[2063]: Failed password for ec2-user from 192.241.218.198 port 8587 ssh2
+Apr 14 20:40:42 linux1 sshd[2064]: Accepted publickey for monitor from 10.0.0.15 port 47562 ssh2
+Apr 14 20:40:43 linux1 systemd-logind[2065]: Session opened for user monitor
+Apr 14 21:07:14 linux1 systemd-logind[2066]: Session closed for user monitor
+Apr 14 21:09:13 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 21:11:10 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 21:12:21 linux1 sshd[2069]: Failed password for invalid user root from 91.205.189.15 port 44949 ssh2
+Apr 14 21:12:22 linux1 sshd[2070]: Failed password for invalid user deploy from 91.205.189.15 port 45810 ssh2
+Apr 14 21:12:23 linux1 sshd[2071]: Failed password for deploy from 91.205.189.15 port 14393 ssh2
+Apr 14 21:12:24 linux1 sshd[2072]: Failed password for deploy from 91.205.189.15 port 54372 ssh2
+Apr 14 21:12:27 linux1 sshd[2073]: Failed password for admin from 91.205.189.15 port 49678 ssh2
+Apr 14 21:12:29 linux1 sshd[2074]: Failed password for admin from 91.205.189.15 port 34507 ssh2
+Apr 14 21:12:32 linux1 sshd[2075]: Failed password for deploy from 91.205.189.15 port 46436 ssh2
+Apr 14 21:12:34 linux1 sshd[2076]: Failed password for jenkins from 91.205.189.15 port 28324 ssh2
+Apr 14 21:12:37 linux1 sshd[2077]: Failed password for deploy from 91.205.189.15 port 64320 ssh2
+Apr 14 21:12:43 linux1 CRON[2078]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 21:14:07 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 21:15:58 linux1 sshd[2080]: Failed password for ec2-user from 192.241.218.198 port 43467 ssh2
+Apr 14 21:17:37 linux1 sshd[2081]: Accepted publickey for monitor from 10.0.0.15 port 64219 ssh2
+Apr 14 21:17:38 linux1 systemd-logind[2082]: Session opened for user monitor
+Apr 14 21:18:11 linux1 sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/apt update
+Apr 14 21:42:29 linux1 systemd-logind[2084]: Session closed for user monitor
+Apr 14 21:42:43 linux1 sshd[2085]: Failed password for invalid user root from 142.146.24.37 port 25744 ssh2
+Apr 14 21:42:44 linux1 sshd[2086]: Failed password for admin from 142.146.24.37 port 39296 ssh2
+Apr 14 21:42:45 linux1 sshd[2087]: Failed password for ubuntu from 142.146.24.37 port 31585 ssh2
+Apr 14 21:42:46 linux1 sshd[2088]: Failed password for root from 142.146.24.37 port 11097 ssh2
+Apr 14 21:42:49 linux1 sshd[2089]: Failed password for root from 142.146.24.37 port 51726 ssh2
+Apr 14 21:44:12 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 21:45:19 linux1 CRON[2091]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 21:45:33 linux1 CRON[2092]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 21:46:45 linux1 sshd[2093]: Failed password for root from 142.146.24.37 port 52552 ssh2
+Apr 14 21:47:58 linux1 sshd[2094]: Failed password for root from 83.82.134.124 port 44496 ssh2
+Apr 14 21:48:01 linux1 sshd[2095]: Failed password for administrator from 83.82.134.124 port 37811 ssh2
+Apr 14 21:48:04 linux1 sshd[2096]: Failed password for root from 83.82.134.124 port 8542 ssh2
+Apr 14 21:48:06 linux1 sshd[2097]: Failed password for root from 83.82.134.124 port 60301 ssh2
+Apr 14 21:49:30 linux1 sshd[2098]: Failed password for ubuntu from 142.146.24.37 port 26017 ssh2
+Apr 14 21:50:24 linux1 sshd[2099]: Failed password for root from 61.177.172.140 port 60749 ssh2
+Apr 14 21:51:34 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 21:52:41 linux1 sshd[2101]: Failed password for root from 112.85.42.88 port 22016 ssh2
+Apr 14 21:53:07 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 21:54:20 linux1 sshd[2103]: Failed password for admin from 142.146.24.37 port 57709 ssh2
+Apr 14 21:54:51 linux1 sshd[2104]: Failed password for user from 61.177.172.140 port 43397 ssh2
+Apr 14 21:54:52 linux1 sshd[2105]: Failed password for root from 61.177.172.140 port 31119 ssh2
+Apr 14 21:54:53 linux1 sshd[2106]: Failed password for invalid user root from 61.177.172.140 port 5824 ssh2
+Apr 14 21:54:55 linux1 sshd[2107]: Failed password for root from 61.177.172.140 port 38704 ssh2
+Apr 14 21:54:57 linux1 sshd[2108]: Failed password for user from 61.177.172.140 port 26454 ssh2
+Apr 14 21:54:59 linux1 sshd[2109]: Failed password for invalid user user from 61.177.172.140 port 21759 ssh2
+Apr 14 21:55:02 linux1 sshd[2110]: Failed password for invalid user root from 61.177.172.140 port 36074 ssh2
+Apr 14 21:55:05 linux1 sshd[2111]: Failed password for root from 61.177.172.140 port 50566 ssh2
+Apr 14 21:55:15 linux1 CRON[2112]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 21:56:05 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 21:56:47 linux1 CRON[2114]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 21:58:09 linux1 sshd[2115]: Failed password for user from 61.177.172.140 port 26020 ssh2
+Apr 14 21:59:14 linux1 sshd[2116]: Failed password for administrator from 83.82.134.124 port 53241 ssh2
+Apr 14 22:00:40 linux1 sshd[2117]: Failed password for guest from 61.177.172.140 port 63767 ssh2
+Apr 14 22:01:56 linux1 sshd[2118]: Failed password for test from 142.146.24.37 port 36226 ssh2
+Apr 14 22:01:59 linux1 sshd[2119]: Failed password for ubuntu from 142.146.24.37 port 14900 ssh2
+Apr 14 22:02:02 linux1 sshd[2120]: Failed password for invalid user admin from 142.146.24.37 port 11572 ssh2
+Apr 14 22:02:05 linux1 sshd[2121]: Failed password for invalid user ubuntu from 142.146.24.37 port 13759 ssh2
+Apr 14 22:03:35 linux1 CRON[2122]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 22:05:28 linux1 CRON[2123]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 22:06:55 linux1 sshd[2124]: Failed password for invalid user root from 83.82.134.124 port 17453 ssh2
+Apr 14 22:08:02 linux1 systemd[1]: Starting Daily Cleanup of Temporary Directories...
+Apr 14 22:08:23 linux1 CRON[2126]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 22:08:40 linux1 sshd[2127]: Failed password for admin from 142.146.24.37 port 21850 ssh2
+Apr 14 22:08:42 linux1 sshd[2128]: Failed password for admin from 142.146.24.37 port 38088 ssh2
+Apr 14 22:08:44 linux1 sshd[2129]: Failed password for invalid user test from 142.146.24.37 port 12075 ssh2
+Apr 14 22:08:45 linux1 sshd[2130]: Failed password for admin from 142.146.24.37 port 47698 ssh2
+Apr 14 22:08:47 linux1 sshd[2131]: Failed password for ubuntu from 142.146.24.37 port 56081 ssh2
+Apr 14 22:08:50 linux1 sshd[2132]: Failed password for ubuntu from 142.146.24.37 port 58557 ssh2
+Apr 14 22:08:52 linux1 sshd[2133]: Failed password for ubuntu from 142.146.24.37 port 51799 ssh2
+Apr 14 22:08:55 linux1 sshd[2134]: Failed password for root from 142.146.24.37 port 12543 ssh2
+Apr 14 22:09:10 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 22:11:09 linux1 sshd[2136]: Failed password for invalid user root from 83.82.134.124 port 48696 ssh2
+Apr 14 22:11:12 linux1 sshd[2137]: Failed password for root from 83.82.134.124 port 54281 ssh2
+Apr 14 22:11:14 linux1 sshd[2138]: Failed password for invalid user root from 83.82.134.124 port 60419 ssh2
+Apr 14 22:11:16 linux1 sshd[2139]: Failed password for administrator from 83.82.134.124 port 43878 ssh2
+Apr 14 22:11:18 linux1 sshd[2140]: Failed password for administrator from 83.82.134.124 port 15658 ssh2
+Apr 14 22:11:21 linux1 sshd[2141]: Failed password for administrator from 83.82.134.124 port 9798 ssh2
+Apr 14 22:11:24 linux1 sshd[2142]: Failed password for root from 83.82.134.124 port 27027 ssh2
+Apr 14 22:11:30 linux1 CRON[2143]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 22:13:11 linux1 sshd[2144]: Failed password for admin from 91.205.189.15 port 38140 ssh2
+Apr 14 22:13:34 linux1 CRON[2145]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Apr 14 22:14:24 linux1 sshd[2146]: Failed password for invalid user admin from 61.177.172.140 port 5143 ssh2
+Apr 14 22:14:25 linux1 sshd[2147]: Failed password for guest from 61.177.172.140 port 26458 ssh2
+Apr 14 22:14:27 linux1 sshd[2148]: Failed password for root from 61.177.172.140 port 3639 ssh2
+Apr 14 22:14:29 linux1 sshd[2149]: Failed password for root from 61.177.172.140 port 47144 ssh2
+Apr 14 22:14:32 linux1 sshd[2150]: Failed password for guest from 61.177.172.140 port 55738 ssh2
+Apr 14 22:14:35 linux1 sshd[2151]: Failed password for admin from 61.177.172.140 port 25708 ssh2
+Apr 14 22:14:37 linux1 sshd[2152]: Failed password for invalid user root from 61.177.172.140 port 34884 ssh2
+Apr 14 22:14:38 linux1 sshd[2153]: Failed password for user from 61.177.172.140 port 24151 ssh2
+Apr 14 22:15:27 linux1 sshd[2154]: Failed password for oracle from 185.220.101.44 port 1456 ssh2
+Apr 14 22:15:28 linux1 sshd[2155]: Failed password for root from 185.220.101.44 port 34744 ssh2
+Apr 14 22:15:29 linux1 sshd[2156]: Failed password for invalid user root from 185.220.101.44 port 13273 ssh2
+Apr 14 22:15:32 linux1 sshd[2157]: Failed password for invalid user oracle from 185.220.101.44 port 54563 ssh2
+Apr 14 22:16:06 linux1 sshd[2158]: Failed password for root from 83.82.134.124 port 32580 ssh2
+Apr 14 22:17:26 linux1 sshd[2159]: Failed password for invalid user root from 5.188.206.22 port 16993 ssh2
+Apr 14 22:17:51 linux1 sshd[2160]: Failed password for invalid user root from 45.33.32.156 port 4688 ssh2
+Apr 14 22:19:02 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 22:20:19 linux1 sshd[2162]: Accepted publickey for monitor from 10.0.0.15 port 48732 ssh2
+Apr 14 22:20:20 linux1 systemd-logind[2163]: Session opened for user monitor
+Apr 14 22:31:00 linux1 systemd-logind[2164]: Session closed for user monitor
+Apr 14 22:31:15 linux1 sshd[2165]: Failed password for ubuntu from 192.241.218.198 port 57863 ssh2
+Apr 14 22:31:18 linux1 sshd[2166]: Failed password for root from 192.241.218.198 port 53099 ssh2
+Apr 14 22:31:19 linux1 sshd[2167]: Failed password for ec2-user from 192.241.218.198 port 44254 ssh2
+Apr 14 22:31:20 linux1 sshd[2168]: Failed password for ec2-user from 192.241.218.198 port 45954 ssh2
+Apr 14 22:31:22 linux1 sshd[2169]: Failed password for invalid user ec2-user from 192.241.218.198 port 39729 ssh2
+Apr 14 22:31:24 linux1 sshd[2170]: Failed password for invalid user ubuntu from 192.241.218.198 port 9688 ssh2
+Apr 14 22:31:54 linux1 sshd[2171]: Failed password for apache from 112.85.42.88 port 28535 ssh2
+Apr 14 22:32:21 linux1 sshd[2172]: Failed password for root from 192.241.218.198 port 58548 ssh2
+Apr 14 22:32:41 linux1 sshd[2173]: Failed password for root from 61.177.172.140 port 59807 ssh2
+Apr 14 22:33:41 linux1 sshd[2174]: Failed password for root from 91.205.189.15 port 46744 ssh2
+Apr 14 22:33:43 linux1 sshd[2175]: Failed password for jenkins from 91.205.189.15 port 23995 ssh2
+Apr 14 22:33:46 linux1 sshd[2176]: Failed password for invalid user root from 91.205.189.15 port 28908 ssh2
+Apr 14 22:33:48 linux1 sshd[2177]: Failed password for admin from 91.205.189.15 port 60667 ssh2
+Apr 14 22:33:50 linux1 sshd[2178]: Failed password for invalid user jenkins from 91.205.189.15 port 17919 ssh2
+Apr 14 22:33:53 linux1 sshd[2179]: Failed password for root from 91.205.189.15 port 38902 ssh2
+Apr 14 22:33:56 linux1 sshd[2180]: Failed password for root from 91.205.189.15 port 25601 ssh2
+Apr 14 22:33:59 linux1 sshd[2181]: Failed password for deploy from 91.205.189.15 port 27818 ssh2
+Apr 14 22:34:00 linux1 sshd[2182]: Failed password for jenkins from 91.205.189.15 port 43725 ssh2
+Apr 14 22:34:38 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=92.63.197.11 DST=172.31.57.234 PROTO=TCP SPT=52100 DPT=3389
+Apr 14 22:35:55 linux1 sshd[2184]: Failed password for invalid user administrator from 83.82.134.124 port 50501 ssh2
+Apr 14 22:37:11 linux1 sshd[2185]: Failed password for jenkins from 91.205.189.15 port 17655 ssh2
+Apr 14 22:38:55 linux1 CRON[2186]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 22:40:49 linux1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=06:a5:d1:bf:d7:f9 SRC=185.156.73.54 DST=172.31.57.234 PROTO=TCP SPT=44321 DPT=445
+Apr 14 22:42:29 linux1 sshd[2188]: Failed password for invalid user root from 218.92.0.107 port 7595 ssh2
+Apr 14 22:43:17 linux1 kernel: audit: type=1400 audit(1621234567.890:123): apparmor="ALLOWED" operation="open"
+Apr 14 22:44:51 linux1 CRON[2190]: (root) CMD (/usr/sbin/ntpdate pool.ntp.org)
+Apr 14 22:45:16 linux1 sshd[2191]: Failed password for invalid user root from 192.241.218.198 port 54976 ssh2
+Apr 14 22:46:16 linux1 sshd[2192]: Failed password for administrator from 83.82.134.124 port 6269 ssh2
+Apr 14 22:47:12 linux1 sshd[2193]: Accepted publickey for monitor from 10.0.0.15 port 19798 ssh2
+Apr 14 22:47:13 linux1 systemd-logind[2194]: Session opened for user monitor
+Apr 14 23:08:36 linux1 systemd-logind[2195]: Session closed for user monitor
+Apr 14 23:08:48 linux1 systemd[1]: Started Daily apt download activities.
+Apr 14 23:10:14 linux1 sshd[2197]: Failed password for invalid user ubuntu from 142.146.24.37 port 13786 ssh2
+Apr 14 23:11:25 linux1 CRON[2198]: (root) CMD (/opt/healthmon/healthmon.py /opt/healthmon/config.json)
+Apr 14 23:12:56 linux1 sshd[2199]: Failed password for invalid user root from 83.82.134.124 port 64963 ssh2
+Apr 14 23:14:40 linux1 sshd[2200]: Failed password for invalid user user from 61.177.172.140 port 39433 ssh2
+Apr 14 23:14:41 linux1 sshd[2201]: Failed password for invalid user root from 61.177.172.140 port 37042 ssh2
+Apr 14 23:14:44 linux1 sshd[2202]: Failed password for guest from 61.177.172.140 port 23796 ssh2
+Apr 14 23:14:46 linux1 sshd[2203]: Failed password for admin from 61.177.172.140 port 40762 ssh2
+Apr 14 23:14:48 linux1 sshd[2204]: Failed password for invalid user user from 61.177.172.140 port 38701 ssh2
+Apr 14 23:14:49 linux1 sshd[2205]: Failed password for invalid user user from 61.177.172.140 port 34200 ssh2
+Apr 14 23:14:50 linux1 sshd[2206]: Failed password for guest from 61.177.172.140 port 23304 ssh2
+Apr 14 23:14:53 linux1 sshd[2207]: Failed password for guest from 61.177.172.140 port 58440 ssh2
+Apr 14 23:16:39 linux1 sshd[2208]: Accepted publickey for monitor from 10.0.0.15 port 30041 ssh2
+Apr 14 23:16:40 linux1 systemd-logind[2209]: Session opened for user monitor
+Apr 14 23:36:53 linux1 systemd-logind[2210]: Session closed for user monitor
+Apr 14 23:37:59 linux1 CRON[2211]: (root) CMD (/usr/bin/logrotate /etc/logrotate.conf)
+Apr 14 23:39:43 linux1 sshd[2212]: Failed password for invalid user oracle from 185.220.101.44 port 57517 ssh2
+Apr 14 23:39:45 linux1 sshd[2213]: Failed password for oracle from 185.220.101.44 port 52709 ssh2
+Apr 14 23:39:48 linux1 sshd[2214]: Failed password for oracle from 185.220.101.44 port 16092 ssh2
+Apr 14 23:40:45 linux1 rsyslogd: [origin software="rsyslogd"] rsyslogd was HUPed
+Apr 14 23:41:58 linux1 sshd[2216]: Failed password for invalid user root from 5.188.206.22 port 19851 ssh2
+Apr 14 23:43:48 linux1 sshd[2217]: Failed password for root from 103.99.0.118 port 32255 ssh2
+Apr 14 23:43:50 linux1 sshd[2218]: Failed password for root from 103.99.0.118 port 63094 ssh2
+Apr 14 23:43:51 linux1 sshd[2219]: Failed password for invalid user ftpuser from 103.99.0.118 port 49331 ssh2
+Apr 14 23:43:54 linux1 sshd[2220]: Failed password for invalid user root from 103.99.0.118 port 58220 ssh2
+Apr 14 23:43:55 linux1 sshd[2221]: Failed password for invalid user root from 103.99.0.118 port 55742 ssh2
+Apr 14 23:43:58 linux1 sshd[2222]: Failed password for ftpuser from 103.99.0.118 port 11247 ssh2
+Apr 14 23:43:59 linux1 sshd[2223]: Failed password for root from 103.99.0.118 port 45314 ssh2
+Apr 14 23:45:07 linux1 sshd[2224]: Accepted publickey for monitor from 10.0.0.15 port 63807 ssh2
+Apr 14 23:45:08 linux1 systemd-logind[2225]: Session opened for user monitor
+Apr 14 23:45:43 linux1 sudo: monitor : TTY=pts/0 ; PWD=/home/monitor ; USER=root ; COMMAND=/usr/bin/systemctl restart sshd
+Apr 15 00:07:54 linux1 systemd-logind[2227]: Session closed for user monitor
