@@ -15,6 +15,6 @@
 2. Place logparser.py and sample-auth.log in the same folder
 3. Open up logparser.py with an text editor and change LOG_FILE and OUTPUT_CVS file path.
 <ol> - LOG_FILE should be file pathed to where you put the sample-auth.log. <br>
- - OUTPUT_CVS should be where you want the CVS out to show up as.
+ - OUTPUT_CVS should be where you want the CVS output to show up as.
 </ol>
 	4. Run logparser.py
