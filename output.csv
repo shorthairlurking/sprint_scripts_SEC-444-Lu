@@ -1,0 +1,2 @@
+Target IP,Country,Region,City,ISP,Open Port,Banner,Status,message
+127.0.0.1,,,,,631,,fail,reserved range
