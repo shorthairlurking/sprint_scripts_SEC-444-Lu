@@ -1,0 +1,27 @@
+2026-06-05T00:38:15  DEBUG     healthmon  Config loaded from /home/rem/SEC444/config.json
+2026-06-05T00:38:15  INFO      healthmon  === health check started ===
+2026-06-05T00:38:15  INFO      healthmon  [OK      ] Disk  13.8% used  (160.2 GB free of 195.8 GB)  threshold=80%
+2026-06-05T00:38:15  INFO      healthmon  [OK      ] Memory  12.1% used  (13.7 GB available of 15.6 GB)  threshold=90%
+2026-06-05T00:38:15  INFO      healthmon  [OK      ] CPU load  1m=0.34  5m=0.35  15m=0.46  (0.04/core, 8 cores)  threshold=2.0
+2026-06-05T00:38:15  CRITICAL  healthmon  [CRITICAL] Service 'sshd'  INACTIVE / NOT FOUND
+2026-06-05T00:38:15  CRITICAL  healthmon.alerts  THRESHOLD BREACH  service:sshd — Service 'sshd'  INACTIVE / NOT FOUND
+2026-06-05T00:38:15  INFO      healthmon  [OK      ] Service 'cron'  active
+2026-06-05T00:38:15  WARNING   healthmon.alerts  === health check complete — 1 alert(s) raised ===
+2026-06-05T00:38:15  INFO      healthmon  ╔══════════════════════════════════════════════════════════════════════╗
+2026-06-05T00:38:15  INFO      healthmon  ║   SYSTEM HEALTH REPORT                                               ║
+2026-06-05T00:38:15  INFO      healthmon  ║   Friday 05 June 2026  00:38:15                                      ║
+2026-06-05T00:38:15  INFO      healthmon  ║   Config : /home/rem/SEC444/config.json                              ║
+2026-06-05T00:38:15  INFO      healthmon  ║   Log    : /home/ubuntu/healthmon.log                                ║
+2026-06-05T00:38:15  INFO      healthmon  ║   Alerts : /home/ubuntu/alerts.log                                   ║
+2026-06-05T00:38:15  INFO      healthmon  ╠══════════════════════════════════════════════════════════════════════╣
+2026-06-05T00:38:15  INFO      healthmon  ║   CHECK                         VALUE           STATUS      THRESHOLD ║
+2026-06-05T00:38:15  INFO      healthmon  ║ ──────────────────────────────────────────────────────────────────── ║
+2026-06-05T00:38:15  INFO      healthmon  ║   [OK]       disk_usage_percent            13.8%           OK          80% ║
+2026-06-05T00:38:15  INFO      healthmon  ║   [OK]       memory_usage_percent          12.1%           OK          90% ║
+2026-06-05T00:38:15  INFO      healthmon  ║   [OK]       cpu_load_1min                 0.3             OK          2.0 ║
+2026-06-05T00:38:15  INFO      healthmon  ║   [CRITICAL] service:sshd                  inactive        CRITICAL    active ║
+2026-06-05T00:38:15  INFO      healthmon  ║   [OK]       service:cron                  active          OK          active ║
+2026-06-05T00:38:15  INFO      healthmon  ╠══════════════════════════════════════════════════════════════════════╣
+2026-06-05T00:38:15  INFO      healthmon  ║   ⚠  ALERTS RAISED                                                   ║
+2026-06-05T00:38:15  INFO      healthmon  ║     → Service 'sshd'  INACTIVE / NOT FOUND                           ║
+2026-06-05T00:38:15  INFO      healthmon  ╚══════════════════════════════════════════════════════════════════════╝

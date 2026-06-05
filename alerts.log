@@ -1,0 +1,2 @@
+2026-06-05T00:38:15  CRITICAL  healthmon.alerts  THRESHOLD BREACH  service:sshd — Service 'sshd'  INACTIVE / NOT FOUND
+2026-06-05T00:38:15  WARNING   healthmon.alerts  === health check complete — 1 alert(s) raised ===
