@@ -16,6 +16,7 @@ For Sprint 5, the requirement for the scripts are:
 
 ### Dependencies
 
+* Oracle VirtualBox
 * 2 VM set up with the latest ubuntu LTE.
 * both VM on the same network
 * passwordless sudo set on both vm
@@ -25,17 +26,36 @@ For Sprint 5, the requirement for the scripts are:
 
 Controller VM:
 - Create a user named 'rem' (all lower case)
-    
-
+- set network ip to 10.0.2.15
+- download configure.yml, deploy.yml, and inventory.ini and put them in your desired folder
+- run this in cmd for passwordless sudo
+  ```
+  echo "ansible_user ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/ansible
+  sudo chmod 440 /etc/sudoers.d/ansible
+  ```
+Host VM:
+- Create a user named 'momo' (all lower case)
+- set network ip to 10.0.2.5
+- run this in cmd for passwordless sudo
+  ```
+  echo "ansible_user ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/ansible
+  sudo chmod 440 /etc/sudoers.d/ansible
+  ```
 
 ### Executing program
 
-1. download healthmon.py and config.json into a folder of your choosing. Make sure they are in the same folder
-2. go to /home/ubuntu/ and paste healthmon.log and alerts.log in there. (they should be automatically created when you run the healthmon.py the first time but just in case)
-3. open up command and navigate to the folder with healthmon.py.
-4. run script by inputing the config.json --check 
-   Example:
+1. download configure.yml, deploy.yml, and inventory.ini into a folder of your choosing. Make sure they are in the same folder
+2. run 
 ```
-python3 healthmon.py config.json --check
+ansible-playbook -i inventory.ini configure.yml
+ansible-playbook -i inventory.ini deploy.yml
 ```
+
+## NOTES:
+
+- the inital users and ip doesn't matter but the passwordless sudos are a must
+- sometimes ansible can't reach host when I am not actively log into the 2nd vm even when it's powered on.
+
+
+
 
