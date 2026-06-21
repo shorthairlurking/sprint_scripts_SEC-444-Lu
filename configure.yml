@@ -1,0 +1,115 @@
+# configure.yml for server setup
+---
+- name: Setup Linux Server
+  hosts: servers
+  become: true
+  vars:
+    admin_username: "ansible_sys"
+    admin_groups: "sudo"
+    admin_shell: "/bin/bash"
+    admin_home: "/home/ansible_sys"
+    ssh_public_key: "{{ lookup('file', '~/.ssh/id_ed25519.pub') }}"
+    timezone_setting: "America/Los_Angeles"
+    rsyslog_service: "rsyslog"
+    rsyslog_config: "/etc/rsyslog.conf"
+
+  tasks:
+    ## ADMIN USER
+    - name: Create admin account
+      ansible.builtin.user:
+        name: "{{ admin_username }}"
+        groups: "{{ admin_groups }}"
+        append: true
+        shell: "{{ admin_shell }}"
+        home: "{{ admin_home }}"
+        create_home: true
+        state: present
+
+    - name: Ensure .ssh exists
+      ansible.builtin.file:
+        path: "{{ admin_home }}/.ssh"
+        state: directory
+        owner: "{{ admin_username }}"
+        group: "{{ admin_username }}"
+        mode: "0700"
+
+    - name: Copy SSH key from controller
+      ansible.posix.authorized_key:
+        user: "{{ admin_username }}"
+        state: present
+        key: "{{ ssh_public_key }}"
+        exclusive: false
+
+    - name: Set permission on authorized_keys
+      ansible.builtin.file:
+        path: "{{ admin_home }}/.ssh/authorized_keys"
+        owner: "{{ admin_username }}"
+        group: "{{ admin_username }}"
+        mode: "0600"
+
+    - name: Verify user and group
+      ansible.builtin.command:
+        cmd: "id {{ admin_username }}"
+      register: user_id_output
+      changed_when: false
+
+    - name: Display user info
+      ansible.builtin.debug:
+        msg: "{{ user_id_output.stdout }}"
+
+    ## PACKAGES
+    - name: Update existing packages
+      ansible.builtin.apt:
+        upgrade: dist
+        update_cache: true
+
+    - name: Set system timezone
+      community.general.timezone:
+        name: "{{ timezone_setting }}"
+      notify: Restart cron
+
+    - name: Install essential packages
+      ansible.builtin.package:
+        name:
+          - curl
+          - git
+          - python3
+          - python3-pip
+          - python3-psutil
+          - rsyslog
+        state: present
+
+    ## RSYSLOG
+    - name: Enable and start rsyslog
+      ansible.builtin.service:
+        name: "{{ rsyslog_service }}"
+        enabled: true
+        state: started
+
+    - name: Validate rsyslog config syntax
+      ansible.builtin.command:
+        cmd: "rsyslogd -N1 -f {{ rsyslog_config }}"
+      register: rsyslog_config_check
+      changed_when: false
+      failed_when: rsyslog_config_check.rc != 0
+
+    - name: Display config check result
+      ansible.builtin.debug:
+        msg: "{{ rsyslog_config_check.stderr_lines }}"
+
+    - name: PID check rsyslog
+      ansible.builtin.command:
+        cmd: "pgrep -x rsyslogd"
+      register: rsyslog_pid
+      changed_when: false
+      failed_when: rsyslog_pid.rc != 0
+
+    - name: Display rsyslog PID
+      ansible.builtin.debug:
+        msg: "rsyslogd is running with PID: {{ rsyslog_pid.stdout }}"
+
+  handlers:
+    - name: Restart cron
+      ansible.builtin.service:
+        name: cron
+        state: restarted

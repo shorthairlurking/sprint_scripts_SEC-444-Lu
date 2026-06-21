@@ -1,0 +1,125 @@
+---
+- name: Deploy and run healthmon.py (sprint4-healthmon)
+  hosts: servers
+  become: true
+  vars:
+    admin_user: "ansible_sys"
+    repo_url: "https://github.com/shorthairlurking/sprint_scripts_SEC-444-Lu.git"
+    repo_branch: "sprint4-healthmon"
+    deploy_dir: "/opt/healthmon"
+    config_dest: "{{ deploy_dir }}/config.json"
+    log_dir: "/home/{{ ansible_facts['env']['USER'] }}"
+    healthmon_log: "{{ log_dir }}/healthmon.log"
+    alert_log: "{{ log_dir }}/alerts.log"
+    cron_log: "{{ log_dir }}/healthmon_cron.log"
+    cron_hour: "4"
+    cron_minute: "0"
+    python_bin: "/usr/bin/python3"
+
+  tasks:
+
+    ## Clone Github
+    - name: Clone sprint4-healthmon branch
+      ansible.builtin.git:
+        repo: "{{ repo_url }}"
+        dest: "{{ deploy_dir }}"
+        version: "{{ repo_branch }}"
+        force: true
+        update: true
+      register: git_result
+      changed_when: git_result.before != git_result.after
+
+    - name: Ensure healthmon.py is executable
+      ansible.builtin.file:
+        path: "{{ deploy_dir }}/healthmon.py"
+        state: file
+        mode: "0755"
+      when: git_result.changed
+
+    ## Make Directories
+    - name: Ensure log directory exists
+      ansible.builtin.file:
+        path: "{{ log_dir }}"
+        state: directory
+        owner: "{{ ansible_facts['env']['USER'] }}"
+        group: "{{ ansible_facts['env']['USER'] }}"
+        mode: "0755"
+
+    - name: Ensure healthmon.log exists
+      ansible.builtin.copy:
+        content: ""
+        dest: "{{ healthmon_log }}"
+        force: false
+        owner: "{{ ansible_facts['env']['USER'] }}"
+        group: "{{ ansible_facts['env']['USER'] }}"
+        mode: "0644"
+
+    - name: Ensure alerts.log exists
+      ansible.builtin.copy:
+        content: ""
+        dest: "{{ alert_log }}"
+        force: false
+        owner: "{{ ansible_facts['env']['USER'] }}"
+        group: "{{ ansible_facts['env']['USER'] }}"
+        mode: "0644"
+
+    ## Run Healthmon.py
+    - name: Run healthmon.py with --check flag
+      ansible.builtin.command:
+        cmd: "{{ python_bin }} {{ deploy_dir }}/healthmon.py {{ config_dest }} --check"
+        chdir: "{{ deploy_dir }}"
+      register: healthmon_output
+      changed_when: false
+
+    ## Display Results
+    - name: Display healthmon output
+      ansible.builtin.debug:
+        msg: "{{ healthmon_output.stdout_lines }}"
+
+    - name: Display any stderr (warnings / errors)
+      ansible.builtin.debug:
+        msg: "{{ healthmon_output.stderr_lines }}"
+      when: healthmon_output.stderr_lines | length > 0
+
+    - name: Fetch healthmon.log back to control node
+      ansible.builtin.fetch:
+        src: "{{ healthmon_log }}"
+        dest: "./logs/{{ inventory_hostname }}_healthmon.log"
+        flat: true
+
+    - name: Fetch alerts.log back to control node
+      ansible.builtin.fetch:
+        src: "{{ alert_log }}"
+        dest: "./logs/{{ inventory_hostname }}_alerts.log"
+        flat: true
+
+    ## Schedule cron job
+    - name: Schedule healthmon.py to run daily at 4AM
+      ansible.builtin.cron:
+        name: "daily check"
+        user: "{{ admin_user }}"
+        minute: "{{ cron_minute }}"
+        hour: "{{ cron_hour }}"
+        day: "*"
+        month: "*"
+        weekday: "*"
+        job: >-
+          {{ python_bin }} {{ deploy_dir }}/healthmon.py {{ config_dest }} >> {{ cron_log }} 2>&1
+        state: present
+
+    - name: List Crontab for Admin
+      ansible.builtin.command:
+        cmd: "crontab -u {{ admin_user }} -l"
+      register: crontab_output
+      changed_when: false
+
+    - name: Display Crontab
+      ansible.builtin.debug:
+        msg: "{{ crontab_output.stdout_lines }}"
+
+    - name: Confirm healthmon.py in crontab
+      ansible.builtin.assert:
+        that:
+          - "'healthmon.py' in crontab_output.stdout"
+        success_msg: "Cron job confirmed - healthmon.py scheduled at {{ cron_hour }}:{{ '%02d' % (cron_minute | int) }} daily"
+        fail_msg: "Cron job NOT found in crontab - check for errors above"
