@@ -3,8 +3,8 @@
         "disk_usage_percent": 80,
         "memory_usage_percent": 90,
         "cpu_load_1min": 2.0,
-        "services": ["sshd", "cron"]
+        "services": ["ssh", "cron"]
     },
-    "log_file": "/home/ubuntu/healthmon.log",
-    "alert_log": "/home/ubuntu/alerts.log"
+    "log_file": "/home/ansible_sys/healthmon.log",
+    "alert_log": "/home/ansible_sys/alerts.log"
 }
